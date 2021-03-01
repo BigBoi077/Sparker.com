@@ -1,0 +1,41 @@
+@import "vendor/bulma/bulma.css";
+@import "vendor/bootstrap.min.css";
+@import "vendor/all.min.css";
+@import "animations.css";
+
+@font-face {
+    font-family: 'Michroma';
+    src: url("./fonts/Michroma-regular.ttf");
+}
+
+:root {
+    --main-yellow: #ec8404;
+    --main-orange: #e78200;
+    --pale-brown: #b8805c;
+    --dark-brow: #524439;
+    --pale-grey: #BAA89B;
+    --dark-grey: #7c8080;
+    --black: #323232;
+    --pale-green: #00BA5F;
+    --dark-green: #00832E;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Michroma', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    color: var(--main-yellow);
+    font-weight: 600;
+}
+
+.logo {
+    height: 3em;
+    width: auto;
+}
+
+.form-button {
+    background-color: var(--main-yellow);
+}

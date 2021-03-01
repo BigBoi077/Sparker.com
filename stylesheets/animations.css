@@ -1,0 +1,11 @@
+.rotation {
+    border: 1.5em groove var(--main-yellow);
+    border-radius: 999px;
+    display: table-cell;
+    animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+}
