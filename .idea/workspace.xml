@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="" />
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/errors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/getter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/log-in.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/queries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sign-up.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user-verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/sign-up.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/shared/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/shared/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/shared/meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/shared/sign-up-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/sign-up-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign-up.php" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +37,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oxIRcuCDu2RYSvk8qLyb0WU8o6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app" />
       <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app\helpers\classes" />
       <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app\helpers" />
       <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\stylesheets\fonts" />
@@ -49,11 +73,23 @@
       <workItem from="1614221809604" duration="6121000" />
       <workItem from="1614259031601" duration="886000" />
       <workItem from="1614264243052" duration="2117000" />
-      <workItem from="1614549579667" duration="13887000" />
+      <workItem from="1614549579667" duration="14791000" />
+      <workItem from="1614569991817" duration="1767000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,6 +1,6 @@
 <?php
 
-require_once "app/helpers/functions.php";
+require_once "app/functions.php";
 
 if (isset($_SESSION['is_logged'])) {
     redirect("app/login.php");

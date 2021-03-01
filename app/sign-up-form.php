@@ -1,5 +1,5 @@
 <div class="columns is-centered is-four-fifths">
-    <form action="" onsubmit="isFormOk()" class="box" method="post">
+    <form action="sign-up.php" onsubmit="isFormOk()" class="box" method="post">
         <div class="columns">
             <div class="column">
                 <div class="field">
