@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/errors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/getter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/log-in.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/queries.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sign-up.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user-verification.php" afterDir="false" />
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="replaced all files">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/sign-up.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/shared/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/shared/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/shared/meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/shared/sign-up-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/sign-up-form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sign-up.php" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/errors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/getter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/getter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sign-up.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/sign-up.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/user-verification.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +63,16 @@
       <workItem from="1614259031601" duration="886000" />
       <workItem from="1614264243052" duration="2117000" />
       <workItem from="1614549579667" duration="14791000" />
-      <workItem from="1614569991817" duration="1767000" />
+      <workItem from="1614569991817" duration="4044000" />
     </task>
+    <task id="LOCAL-00001" summary="replaced all files">
+      <created>1614571951394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614571951394</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="replaced all files" />
+    <option name="LAST_COMMIT_MESSAGE" value="replaced all files" />
   </component>
 </project>

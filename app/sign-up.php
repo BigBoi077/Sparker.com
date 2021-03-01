@@ -8,4 +8,7 @@ require_once "User.php";
 if (!isset($_SESSION['is_logged'])) {
     $user = new User();
     getUserContent($user);
+    if (isUserValid($user)) {
+        registerUser($user);
+    }
 }

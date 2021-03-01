@@ -9,7 +9,7 @@ session_start();
 function buildDatabase(): Database
 {
     $db = new Database();
-    $db->connect("localhost", "etudiant", "Etudiant1", "shop");
+    $db->connect("localhost", "etudiant", "Etudiant1", "vote");
     return $db;
 }
 
@@ -18,4 +18,9 @@ function redirect(string $file)
     http_response_code(302);
     header("Location: $file");
     exit;
+}
+
+function registerUser($user)
+{
+    $user->password = password_hash(getPostContent('password') . PASSWORD_PEPPER, PASSWORD_DEFAULT);
 }

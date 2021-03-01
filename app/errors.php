@@ -6,3 +6,7 @@ if (isset($_SESSION["error"])) {
     <?php
     unset($_SESSION['error']);
 }
+
+function addError($message) {
+    $_SESSION['error'] .= $message . "\n";
+}
