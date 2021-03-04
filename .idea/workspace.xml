@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="replaced all files">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/regex.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/errors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/getter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/getter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sign-up.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/sign-up.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/user-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/user-verification.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +84,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="replaced all files" />
