@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="replaced all files">
-      <change afterPath="$PROJECT_DIR$/app/regex.php" afterDir="false" />
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="finished user verifications with regex and such">
+      <change afterPath="$PROJECT_DIR$/app/sign-up-verification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/votes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/errors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/getter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/getter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/queries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/regex.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/regex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sign-up-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/sign-up-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sign-up.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/user-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/user-verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign-up.php" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +45,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql&#10;mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614571951394</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished user verifications with regex and such">
+      <created>1614820538835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614820538835</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="replaced all files" />
-    <option name="LAST_COMMIT_MESSAGE" value="replaced all files" />
+    <MESSAGE value="finished user verifications with regex and such" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished user verifications with regex and such" />
   </component>
 </project>

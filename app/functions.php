@@ -9,7 +9,7 @@ session_start();
 function buildDatabase(): Database
 {
     $db = new Database();
-    $db->connect("localhost", "etudiant", "Etudiant1", "vote");
+    $db->connect("localhost", "etudiant", "Etudiant1", "sparker");
     return $db;
 }
 

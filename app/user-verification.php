@@ -7,9 +7,8 @@ require_once "regex.php";
 
 function isUserValid($user): bool
 {
-    $user->printContent();
-    return isUsernameValid($user)
-        && areNamesValid($user)
+    return areNamesValid($user)
+        && isUsernameValid($user)
         && isEmailValid($user)
         && isPasswordValid($user)
         && isSocialSecurityNumberValid($user)
@@ -21,12 +20,11 @@ function isUserValid($user): bool
 function isGenderValid($user): bool
 {
     $gender = $user->gender;
-    $validGenders = array("Male", "Female", "Apache_Helicopter");
-    foreach ($validGenders as $elem) {
-        if (!strcmp ($elem, $gender)) {
-            addError("The chosen gender is invalid");
-            return false;
-        }
+    if (!strcmp ("Male", $gender) &&
+        !strcmp ("Female", $gender) &&
+        !strcmp ("Apache_Helicopter", $gender)) {
+        addError("The chosen gender is invalid");
+        return false;
     }
     return true;
 }
@@ -43,7 +41,7 @@ function isAddressValid($user): bool
 function isPhoneNumberValid($user): bool
 {
     if (doesntMatchRegex(getPhoneNumberRegex(), $user->phoneNumber)) {
-        addError("Phone number is not valid");
+        addError("Phone number is not valid. Try adding seperators ?");
         return false;
     }
     return true;
@@ -51,6 +49,7 @@ function isPhoneNumberValid($user): bool
 
 function isSocialSecurityNumberValid($user): bool
 {
+    return true; // TODO : remove this on launch
     if (doesntMatchRegex(getSsnRegex(), $user->ssn)) {
         addError("Social security number must be 9 characters long");
         return false;
@@ -60,6 +59,7 @@ function isSocialSecurityNumberValid($user): bool
 
 function isPasswordValid($user): bool
 {
+    return true; // TODO : remove this on launch
     if (doesntMatchRegex(getPasswordRegex(), $user->password)) {
         addError("Password must contain a capital letter, a lower case letter, 
                   a number, a special character and be minimum 8 characters long");
@@ -97,7 +97,7 @@ function isEmailValid($user): bool
 
 function areNamesValid($user): bool
 {
-    if (!areNamesOk($user)) {
+    if (areNamesOk($user)) {
         addError("Name fields are invalid");
         return false;
     }

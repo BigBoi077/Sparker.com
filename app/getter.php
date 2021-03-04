@@ -13,7 +13,7 @@ function getUserContent($user) {
     $user->email = getPostContent('email');
     $user->password = getPostContent('password');
     $user->ssn = getPostContent('ssn');
-    $user->phoneNumber = getPostContent('phoneNumber');
+    $user->phoneNumber = getPostContent('phone-number');
     $user->address = getPostContent('address');
     $user->gender = getPostContent('gender');
 }

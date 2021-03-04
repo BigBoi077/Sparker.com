@@ -2,6 +2,6 @@
 
 function getWithUsername($username) {
     return "SELECT * 
-            FROM authentication 
+            FROM account 
             WHERE username = '$username'";
 }

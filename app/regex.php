@@ -2,7 +2,7 @@
 
 function getUsernameRegex(): string
 {
-    return "^(?=.{8,20}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$";
+    return "/^[A-Za-z][A-Za-z0-9]{5,31}$/";
 }
 
 function getNamesRegex(): string
@@ -22,10 +22,10 @@ function getSsnRegex(): string
 
 function getPhoneNumberRegex(): string
 {
-    return "^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$";
+    return "/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/";
 }
 
 function getAddressRegex(): string
 {
-    return "^[#.0-9a-zA-Z\s,-]+$";
+    return "/[A-Za-z0-9\-\\,.]+/";
 }

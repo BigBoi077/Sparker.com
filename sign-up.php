@@ -1,10 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <?php
-        include_once "app/meta.php";
-        print_r($_POST);
-    ?>
+    <?php include_once "app/meta.php"; ?>
 </head>
 <body>
     <div class="container mt-4 mb-4">
