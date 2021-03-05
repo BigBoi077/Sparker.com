@@ -3,8 +3,6 @@
 require_once "functions.php";
 require_once "queries.php";
 
-redirect("../sign-up.php");
-
 if (!isset($_SESSION['is_logged'])) {
     $username = addslashes($_POST['username']) ?? '';
     $password = addslashes($_POST['password']) ?? '';
@@ -20,7 +18,7 @@ if (!isset($_SESSION['is_logged'])) {
 
     if (!password_verify($password . PASSWORD_PEPPER, $hashPassword)) {
         $_SESSION['error'] = "Wrong Credentials (password invalid)";
-        sleep(5);
+        sleep(2);
         redirect("../index.php");
     } else {
         $_SESSION['is_logged'] = true;
