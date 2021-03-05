@@ -1,3 +1,4 @@
+<hr>
 <div class="is-flex justify-content-center">
     <div class="rotation">
         <div class="rotation">

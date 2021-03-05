@@ -31,6 +31,10 @@ h1 {
     font-weight: 600;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logo {
     height: 3em;
     width: auto;

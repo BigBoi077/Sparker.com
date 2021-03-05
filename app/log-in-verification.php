@@ -7,6 +7,9 @@ if (!isset($_SESSION['is_logged'])) {
     $username = addslashes($_POST['username']) ?? '';
     $password = addslashes($_POST['password']) ?? '';
 
+    if (userIsAdmin($username, $password)) {
+        //  TODO : make admin panel and create database
+    }
 
     if (userExists($username)) {
         $_SESSION['error'] = "Wrong Credentials (username invalid)";
@@ -26,6 +29,4 @@ if (!isset($_SESSION['is_logged'])) {
         $_SESSION['firstname'] = getUserInformation($username, "firstname");
         redirect("../votes.php");
     }
-} else {
-    redirect("../votes.php");
 }

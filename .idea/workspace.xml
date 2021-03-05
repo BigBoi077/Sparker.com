@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="CODE ! CODE ! CODE !">
-      <change afterPath="$PROJECT_DIR$/app/logout.php" afterDir="false" />
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="fixed unknown session">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/log-in-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/log-in-verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/votes.php" beforeDir="false" afterPath="$PROJECT_DIR$/votes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
       <workItem from="1614549579667" duration="14791000" />
       <workItem from="1614569991817" duration="4044000" />
       <workItem from="1614863190914" duration="976000" />
-      <workItem from="1614901798917" duration="5523000" />
+      <workItem from="1614901798917" duration="6985000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614907091344</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed unknown session">
+      <created>1614907785904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614907785904</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +127,7 @@
     <MESSAGE value="finished user verifications with regex and such" />
     <MESSAGE value="finished verifications" />
     <MESSAGE value="CODE ! CODE ! CODE !" />
-    <option name="LAST_COMMIT_MESSAGE" value="CODE ! CODE ! CODE !" />
+    <MESSAGE value="fixed unknown session" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed unknown session" />
   </component>
 </project>
