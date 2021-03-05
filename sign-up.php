@@ -1,3 +1,4 @@
+<?php include_once "app/log-in-redirect.php"?>
 <!doctype html>
 <html lang="en">
 <head>

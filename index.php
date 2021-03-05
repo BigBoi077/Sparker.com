@@ -1,3 +1,4 @@
+<?php include_once "app/log-in-redirect.php"?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,17 +9,18 @@
         <?php include_once "app/header.php"; ?>
         <div class="columns is-centered">
             <div class="column is-three-fifths">
-                <form class="box">
+                <?php include_once "app/errors.php"; ?>
+                <form class="box" action="app/log-in-verification.php" method="post">
                     <div class="field">
                         <label class="label">Username</label>
                         <div class="control">
-                            <input id="username" class="input" type="text" placeholder="C.Redfield">
+                            <input id="username" name="username" class="input" type="text" placeholder="C.Redfield">
                         </div>
                     </div>
                     <div class="field">
                         <label class="label">Password</label>
                         <div class="control">
-                            <input id="password" class="input" type="password" placeholder="********">
+                            <input id="password" name="password" class="input" type="password" placeholder="********">
                         </div>
                     </div>
                     <a class="is-size-7-desktop d-block" href="sign-up.php">Don't have an acount ? Sign up here</a>

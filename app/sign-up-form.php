@@ -1,5 +1,5 @@
-<div class="columns is-centered is-four-fifths">
-    <form action="/Sparker.com/app/sign-up-verification.php" onsubmit="isFormOk()" class="box" method="post">
+<div class="columns mt-4 is-centered is-four-fifths">
+    <form action="/Sparker.com/app/sign-up-verification.php" id="sign-up-form" class="box" method="post">
         <div class="columns">
             <div class="column">
                 <div class="field">

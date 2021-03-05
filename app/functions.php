@@ -22,5 +22,7 @@ function redirect(string $file)
 
 function registerUser($user)
 {
+    // $saltPepperPassword = password_hash('PASSWORD HERE' . PASSWORD_PEPPER, PASSWORD_DEFAULT);
+
     $user->password = password_hash(getPostContent('password') . PASSWORD_PEPPER, PASSWORD_DEFAULT);
 }

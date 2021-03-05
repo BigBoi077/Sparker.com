@@ -7,7 +7,7 @@
 <div class="container mt-4 mb-4">
     <?php include_once "app/header.php"; ?>
     <div class="columns is-centered">
-        <h1 class="title is-2">Hi <?php echo $_SESSION['firstname']; ?>, here are today's top polls</h1>
+        You can vote here
     </div>
 </div>
 <?php include_once "app/footer.php"; ?>

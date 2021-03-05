@@ -4,20 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="finished user verifications with regex and such">
-      <change afterPath="$PROJECT_DIR$/app/sign-up-verification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/votes.php" afterDir="false" />
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="finished verifications">
+      <change afterPath="$PROJECT_DIR$/admin-pannel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/log-in-redirect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/errors.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/getter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/getter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/log-in.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/log-in-verification.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/queries.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/regex.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/regex.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sign-up-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/sign-up-form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sign-up.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/user-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/user-verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/helpers/eventPlacers.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/helpers/eventPlacers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sign-up.php" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/votes.php" beforeDir="false" afterPath="$PROJECT_DIR$/votes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,8 @@
       <workItem from="1614264243052" duration="2117000" />
       <workItem from="1614549579667" duration="14791000" />
       <workItem from="1614569991817" duration="4044000" />
+      <workItem from="1614863190914" duration="976000" />
+      <workItem from="1614901798917" duration="4838000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -89,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614820538835</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished verifications">
+      <created>1614829503287</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614829503287</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="replaced all files" />
     <MESSAGE value="finished user verifications with regex and such" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished user verifications with regex and such" />
+    <MESSAGE value="finished verifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished verifications" />
   </component>
 </project>
