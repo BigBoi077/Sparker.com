@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="made the admin pannel accesible">
-      <change afterPath="$PROJECT_DIR$/app/switch-off-admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/create-poll.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs.php" afterDir="false" />
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="made navigation in admin panel">
+      <change afterPath="$PROJECT_DIR$/app/poll-creation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin-panel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/votes.php" beforeDir="false" afterPath="$PROJECT_DIR$/votes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-poll.php" beforeDir="false" afterPath="$PROJECT_DIR$/create-poll.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1614863190914" duration="976000" />
       <workItem from="1614901798917" duration="7033000" />
       <workItem from="1615076407201" duration="7031000" />
-      <workItem from="1615132655631" duration="1757000" />
+      <workItem from="1615132655631" duration="5013000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -128,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615132978342</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="made navigation in admin panel">
+      <created>1615134504079</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615134504079</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +161,7 @@
     <MESSAGE value="fixed unknown session" />
     <MESSAGE value="reworked stuff" />
     <MESSAGE value="made the admin pannel accesible" />
-    <option name="LAST_COMMIT_MESSAGE" value="made the admin pannel accesible" />
+    <MESSAGE value="made navigation in admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="made navigation in admin panel" />
   </component>
 </project>

@@ -7,7 +7,7 @@
 <body>
     <div class="container mt-4 mb-4">
         <?php include_once "app/header.php"; ?>
-        <div class="columns is-centered">
+        <div class="columns mt-1 is-centered">
             <div class="column is-three-fifths">
                 <?php include_once "app/errors.php"; ?>
                 <form class="box" action="app/log-in-verification.php" method="post">

@@ -40,6 +40,10 @@ a {
     width: auto;
 }
 
+.center-button {
+    margin: auto;
+}
+
 .form-button {
     background-color: var(--main-yellow);
 }
