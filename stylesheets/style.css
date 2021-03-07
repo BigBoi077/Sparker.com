@@ -16,6 +16,7 @@
     --pale-grey: #BAA89B;
     --dark-grey: #7c8080;
     --black: #323232;
+    --white: #eee8e8;
     --pale-green: #00BA5F;
     --dark-green: #00832E;
 }
@@ -46,4 +47,5 @@ a {
 
 .form-button {
     background-color: var(--main-yellow);
+    color: var(--white);
 }

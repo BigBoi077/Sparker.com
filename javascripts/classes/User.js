@@ -1,6 +1,6 @@
-import {placeRadioEvent} from "../helpers/eventPlacers.js"
-import {getRadioValue} from "../helpers/elementGetter.js"
-import FormVerifier from "./FormVerifier.js"
+import {placeRadioEvent} from "../helpers/eventPlacers.js";
+import {getRadioValue} from "../helpers/elementGetter.js";
+import FormVerifier from "./FormVerifier.js";
 
 export default class User {
     constructor() {

@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="made navigation in admin panel">
-      <change afterPath="$PROJECT_DIR$/app/poll-creation.php" afterDir="false" />
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="made the creation poll panel">
+      <change afterPath="$PROJECT_DIR$/javascripts/classes/ElementCreator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/classes/EventPlacer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/sign-up.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/create-poll.php" beforeDir="false" afterPath="$PROJECT_DIR$/create-poll.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/classes/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/classes/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/helpers/elementGetter.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/helpers/elementGetter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +74,7 @@
       <workItem from="1614863190914" duration="976000" />
       <workItem from="1614901798917" duration="7033000" />
       <workItem from="1615076407201" duration="7031000" />
-      <workItem from="1615132655631" duration="5013000" />
+      <workItem from="1615132655631" duration="11710000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -135,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615134504079</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="made the creation poll panel">
+      <created>1615138561067</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615138561067</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +173,7 @@
     <MESSAGE value="reworked stuff" />
     <MESSAGE value="made the admin pannel accesible" />
     <MESSAGE value="made navigation in admin panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="made navigation in admin panel" />
+    <MESSAGE value="made the creation poll panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="made the creation poll panel" />
   </component>
 </project>
