@@ -1,5 +1,7 @@
 <?php
 
+define('ADMIN_NAME', 'JOSHUA');
+define('ADMIN_PASSWORD', 'ADMIN');
 define('PASSWORD_PEPPER', 'm7yLxDiCgVlteqFdz7tHMpavoifD6Cnt5RJSeozCPWg=');
 
 require_once "Database.php";

@@ -7,11 +7,13 @@ if (!isset($_SESSION['is_logged'])) {
     $username = addslashes($_POST['username']) ?? '';
     $password = addslashes($_POST['password']) ?? '';
 
-    if (userIsAdmin($username, $password)) {
-        //  TODO : make admin panel and create database
+    $hashPassword = password_hash($password);
+    $hashPasswordAdmin = password_hash(ADMIN_PASSWORD);
+    if ($username == ADMIN_NAME && $hashPassword == $hashPasswordAdmin) {
+        redirect("../admin-pannel.php");
     }
 
-    if (userExists($username)) {
+    if (!userExists($username)) {
         $_SESSION['error'] = "Wrong Credentials (username invalid)";
         sleep(1);
         redirect("../index.php");
@@ -29,4 +31,5 @@ if (!isset($_SESSION['is_logged'])) {
         $_SESSION['firstname'] = getUserInformation($username, "firstname");
         redirect("../votes.php");
     }
+
 }

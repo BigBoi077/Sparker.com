@@ -7,7 +7,7 @@
 <div class="container mt-4 mb-4">
     <?php include_once "app/header.php"; ?>
     <div class="columns is-centered">
-        You can vote here
+
     </div>
 </div>
 <?php include_once "app/footer.php"; ?>

@@ -13,7 +13,7 @@ function userExists(string $username): bool
     $result = $db->query(getUser($username));
     $rows = $db->fetch($result);
     $db->close();
-    return is_null($rows);
+    return !is_null($rows);
 }
 
 function getUserInformation($username, $columns): string

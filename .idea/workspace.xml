@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="fixed unknown session">
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="reworked stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-pannel.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin-pannel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/log-in-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/log-in-verification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/votes.php" beforeDir="false" afterPath="$PROJECT_DIR$/votes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/queries.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,8 @@
       <workItem from="1614549579667" duration="14791000" />
       <workItem from="1614569991817" duration="4044000" />
       <workItem from="1614863190914" duration="976000" />
-      <workItem from="1614901798917" duration="6985000" />
+      <workItem from="1614901798917" duration="7033000" />
+      <workItem from="1615076407201" duration="2127000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614907785904</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="reworked stuff">
+      <created>1614909236407</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614909236407</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +136,7 @@
     <MESSAGE value="finished verifications" />
     <MESSAGE value="CODE ! CODE ! CODE !" />
     <MESSAGE value="fixed unknown session" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed unknown session" />
+    <MESSAGE value="reworked stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="reworked stuff" />
   </component>
 </project>
