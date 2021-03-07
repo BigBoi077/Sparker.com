@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="reworked stuff">
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="made the admin pannel accesible">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-pannel.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin-pannel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-pannel.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin-panel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/log-in-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/log-in-verification.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/queries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/user-verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/votes.php" beforeDir="false" afterPath="$PROJECT_DIR$/votes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,8 @@
       <workItem from="1614569991817" duration="4044000" />
       <workItem from="1614863190914" duration="976000" />
       <workItem from="1614901798917" duration="7033000" />
-      <workItem from="1615076407201" duration="2127000" />
+      <workItem from="1615076407201" duration="7031000" />
+      <workItem from="1615132655631" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -112,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614909236407</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="made the admin pannel accesible">
+      <created>1615078594931</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615078594931</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +146,7 @@
     <MESSAGE value="CODE ! CODE ! CODE !" />
     <MESSAGE value="fixed unknown session" />
     <MESSAGE value="reworked stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworked stuff" />
+    <MESSAGE value="made the admin pannel accesible" />
+    <option name="LAST_COMMIT_MESSAGE" value="made the admin pannel accesible" />
   </component>
 </project>

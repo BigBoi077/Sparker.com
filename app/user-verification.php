@@ -71,7 +71,7 @@ function isPasswordValid($user): bool
 function isUsernameValid($user): bool
 {
     $db = buildDatabase();
-    $result = $db->query(getUser($user->username));
+    $result = $db->query(getUserQuery($user->username));
     $rows = $db->fetch($result);
     $db->close();
     if (!is_null($rows)) {
