@@ -1,6 +1,5 @@
 <?php
 require_once "app/functions.php";
-session_start();
 if ($_SESSION['is_admin']) {
     redirect("admin-panel.php");
     exit();
