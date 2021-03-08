@@ -1,8 +1,12 @@
 <?php
 
-function getPostContent($name): string
+use JetBrains\PhpStorm\Pure;
+
+require_once "../functions.php";
+
+#[Pure] function getPostContent(string $name): string
 {
-    return addslashes($_POST[$name]) ?? '';
+    return sanitize($_POST[$name]) ?? '';
 }
 
 function getUserContent($user) {

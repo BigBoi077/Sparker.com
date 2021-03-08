@@ -4,16 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="made a functional add/remove panel">
-      <change afterPath="$PROJECT_DIR$/app/poll-verification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sql.php" afterDir="false" />
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="option insertion fixed">
+      <change afterPath="$PROJECT_DIR$/app/creators/generate-votes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/sql.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin-panel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/poll-creation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/poll-creation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/queries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/errors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/getter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/getter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/log-in-redirect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/log-in-redirect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/log-in-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/verifications/log-in-verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/poll-creation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/creators/poll-creation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/poll-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/verifications/poll-verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/queries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/regex.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/regex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sign-up-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sign-up-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sign-up-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/verifications/sign-up-verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sql.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/verifications/user-verification.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/create-poll.php" beforeDir="false" afterPath="$PROJECT_DIR$/create-poll.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/classes/ElementCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/ElementCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign-up.php" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/votes.php" beforeDir="false" afterPath="$PROJECT_DIR$/votes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +70,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app" />
-      <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app\helpers\classes" />
+      <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app\creators" />
       <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app\helpers" />
-      <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\stylesheets\fonts" />
+      <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app\verifications" />
+      <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app\components" />
+      <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app\conponents" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -75,7 +95,7 @@
       <workItem from="1615076407201" duration="7031000" />
       <workItem from="1615132655631" duration="18017000" />
       <workItem from="1615208956932" duration="589000" />
-      <workItem from="1615210140833" duration="2297000" />
+      <workItem from="1615210140833" duration="13301000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -154,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615147858969</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="option insertion fixed">
+      <created>1615212525647</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615212525647</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +210,7 @@
     <MESSAGE value="made navigation in admin panel" />
     <MESSAGE value="made the creation poll panel" />
     <MESSAGE value="made a functional add/remove panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="made a functional add/remove panel" />
+    <MESSAGE value="option insertion fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="option insertion fixed" />
   </component>
 </project>

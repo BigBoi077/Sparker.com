@@ -1,9 +1,8 @@
 <?php
 
-require_once "functions.php";
-require_once "sql.php";
-require_once "poll-verification.php";
-
+require_once "../functions.php";
+require_once "../helpers/sql.php";
+require_once "../verifications/poll-verification.php";
 
 if ($_REQUEST == $_POST) {
     $db = buildDatabase();
@@ -32,7 +31,6 @@ function registerPoll($db): bool
 function registerOptions($db, $pollId)
 {
     foreach($_POST['options'] as $value) {
-        $_SESSION['degub'] = "YESSIR";
         $db->insert(getOptionInsertQuery($value, $pollId));
     }
 }

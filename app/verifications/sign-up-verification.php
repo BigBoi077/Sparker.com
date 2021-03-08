@@ -1,10 +1,10 @@
 <?php
 
-require_once "functions.php";
-require_once "queries.php";
+require_once "../functions.php";
+require_once "../helpers/queries.php";
 require_once "user-verification.php";
-require_once "getter.php";
-require_once "User.php";
+require_once "../helpers/getter.php";
+require_once "../classes/User.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $user = new User();

@@ -1,7 +1,7 @@
 <?php
 
-require_once "functions.php";
-require_once "queries.php";
+require_once "../functions.php";
+require_once "../helpers/queries.php";
 
 if (!isset($_SESSION['is_logged'])) {
     $username = addslashes($_POST['username']) ?? '';
@@ -19,7 +19,7 @@ if (!isset($_SESSION['is_logged'])) {
         $_SESSION['user_id'] = $user['id'];
         $_SESSION['firstname'] = $user['firstname'];
         $_SESSION['lastname'] = $user['lastname'];
-        $_SESSION['is_admin'] = $user['is_admin'];
-        redirect("../votes.php");
+        $_SESSION['is_admin'] = $user['isAdmin'];
+        redirect("/Sparker.com/votes.php");
     }
 }

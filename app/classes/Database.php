@@ -7,7 +7,7 @@ class Database
     /**
      * @var mysqli
      */
-    private $connection;
+    private mysqli $connection;
 
     public function connect(string $host, string $username, string $password, string $database)
     {

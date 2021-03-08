@@ -1,15 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <?php include_once "app/meta.php"; ?>
+    <?php include_once "app/components/meta.php"; ?>
 </head>
 <body>
 <div class="container mt-4 mb-4">
-    <?php include_once "app/header.php";
-          include_once "app/errors.php"; ?>
+    <?php include_once "app/components/header.php";
+          include_once "app/components/errors.php"; ?>
     <div class="columns mt-4 is-centered">
             <div class="column is-three-fifths">
-                <form action="app/poll-creation.php" id="create-poll" class="box mb-4 is-three-fifths" method="post">
+                <form action="app/creators/poll-creation.php" id="create-poll" class="box mb-4 is-three-fifths" method="post">
                     <div class="columns">
                         <div class="column">
                             <div class="field">
@@ -51,7 +51,7 @@
                     </div>
                     <div class="columns">
                         <div class="column d-flex justify-content-center">
-                            <button type="button" class="button is-success" id="add-option">
+                                <button type="button" class="button is-success" id="add-option">
                                 <span class="icon is-small">
                                   <i class="fas fa-plus-circle"></i>
                                 </span>
@@ -64,6 +64,6 @@
         </div>
     </div>
 <script type="module" src="/Sparker.com/javascripts/app.js"></script>
-<?php include_once "app/footer.php"; ?>
+<?php include_once "app/components/footer.php"; ?>
 </body>
 </html>

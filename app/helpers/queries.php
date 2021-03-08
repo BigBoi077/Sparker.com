@@ -37,3 +37,23 @@ function getSingleUserInformation($username, $columns): string
     }
     return $rows[$columns];
 }
+
+function getAllPolls(Database $db): array
+{
+    $result = $db->query(getAllPollsQuery());
+    $rows = $db->fetch($result);
+    if (is_null($rows)) {
+        return [];
+    }
+    return $rows;
+}
+
+function getVotedPostByUser(Database $db, string $userId, string $pollId): array
+{
+    $result = $db->query(getUserVotedPollsQuery($userId, $pollId));
+    $rows = $db->fetch($result);
+    if (is_null($rows)) {
+        return [];
+    }
+    return $rows;
+}

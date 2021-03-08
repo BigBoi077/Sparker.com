@@ -1,9 +1,9 @@
 <?php
 
-require_once  "Database.php";
-require_once "queries.php";
-require_once "errors.php";
-require_once "regex.php";
+require_once "../classes/Database.php";
+require_once "../helpers/queries.php";
+require_once "../components/errors.php";
+require_once "../helpers/regex.php";
 
 function isUserValid($user): bool
 {

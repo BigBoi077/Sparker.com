@@ -1,0 +1,40 @@
+<?php
+
+function getUserQuery($username): string
+{
+    return "SELECT * 
+            FROM account 
+            WHERE username = '$username'";
+}
+
+function getUserInsert($user):string
+{
+    return "INSERT INTO account (username, fisrtname, lastname, email, password, ssn, phoneNisumber, address, gender, isAdmin)
+            VALUES ('$user->username', '$user->firstname', '$user->lastname', '$user->email',
+                    '$user->password', '$user->ssn', '$user->phoneNumber', '$user->address', '$user->gender', 0)";
+}
+
+function getPollInsertQuery($title, $description): string
+{
+    return "INSERT INTO poll (title, description) VALUES ('$title', '$description');";
+}
+
+function getOptionInsertQuery($value, $pollId): string
+{
+    return "INSERT INTO option (description, id_poll) VALUES ('$value', '$pollId')";
+}
+
+function getAllPollsQuery(): string
+{
+    return "SELECT id, title, description FROM poll";
+}
+
+function getAccordingOptionsForPoll($pollId): string
+{
+    return "SELECT id, description FROM option WHERE id = '$pollId'";
+}
+
+function getUserVotedPollsQuery($userId, $pollId): string
+{
+    return "";
+}

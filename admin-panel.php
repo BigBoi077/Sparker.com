@@ -1,14 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <?php include_once "app/meta.php"; ?>
+    <?php include_once "app/components/meta.php"; ?>
 </head>
 <body>
 <div class="container mt-4 mb-4">
-    <?php include_once "app/header.php"; ?>
+    <?php include_once "app/components/header.php"; ?>
     <div class="columns is-centered">
         <div class="column">
-            <h1 class="title is-4"><?php echo $_SESSION['debug']; ?></h1>
             <h1 class="title is-4">With great power comes great responsibility.</h1>
             <h1 class="title is-4">So what will you choose today ?</h1>
         </div>
@@ -32,6 +31,6 @@
         </div>
     </div>
 </div>
-<?php include_once "app/footer.php"; ?>
+<?php include_once "app/components/footer.php"; ?>
 </body>
 </html>
