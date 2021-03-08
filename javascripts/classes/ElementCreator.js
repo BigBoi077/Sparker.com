@@ -26,7 +26,7 @@ export default class ElementCreator {
         div.innerHTML =
                 `<div class="columns">
                     <div class="column is-11">
-                        <input id="title" name="" class="input" type="text" placeholder="Dragon fruit">
+                        <input id="title" name="options[]" class="input" type="text" placeholder="Dragon fruit">
                     </div>
                     <div class="column d-flex justify-content-center">
                         <button type="button" class="button is-danger remove-button" data-option-target="option-${optionNumber}">

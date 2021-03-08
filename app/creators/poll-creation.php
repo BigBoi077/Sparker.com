@@ -12,17 +12,17 @@ if ($_REQUEST == $_POST) {
             registerOptions($db, $pollId);
         }
         $db->close();
-        redirect("../index.php");
+        redirect("/Sparker.com/index.php");
     } else {
         $_SESSION['error'] = "All fields must be filled out";
         $db->close();
-        redirect("../create-poll.php");
+        redirect("/Sparker.com/create-poll.php");
     }
 }
 
 function registerPoll($db): bool
 {
-    if ($db->insert(getPollInsertQuery($_POST['title'], $_POST['description']))) {
+    if ($db->insert(getPollInsertQuery(sanitize($_POST['title']), sanitize($_POST['description'])))) {
         return TRUE;
     }
     return FALSE;
@@ -31,6 +31,6 @@ function registerPoll($db): bool
 function registerOptions($db, $pollId)
 {
     foreach($_POST['options'] as $value) {
-        $db->insert(getOptionInsertQuery($value, $pollId));
+        $db->insert(getOptionInsertQuery(sanitize($value), $pollId));
     }
 }
