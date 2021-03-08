@@ -1,11 +1,6 @@
 <?php
 
-function getUserQuery($username): string
-{
-    return "SELECT * 
-            FROM account 
-            WHERE username = '$username'";
-}
+require_once "sql.php";
 
 function getAllUserRows($username): ?array
 {

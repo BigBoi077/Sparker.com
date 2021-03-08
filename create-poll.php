@@ -5,10 +5,11 @@
 </head>
 <body>
 <div class="container mt-4 mb-4">
-    <?php include_once "app/header.php"; ?>
-        <div class="columns mt-4 is-centered">
+    <?php include_once "app/header.php";
+          include_once "app/errors.php"; ?>
+    <div class="columns mt-4 is-centered">
             <div class="column is-three-fifths">
-                <form action="/app/poll-creation.php" id="create-poll" class="box mb-4 is-three-fifths" method="post">
+                <form action="app/poll-creation.php" id="create-poll" class="box mb-4 is-three-fifths" method="post">
                     <div class="columns">
                         <div class="column">
                             <div class="field">
@@ -29,19 +30,20 @@
                             </div>
                         </div>
                     </div>
+                    <label class="label" for="options[]">Options</label>
                     <div class="columns">
                         <div class="column" id="input-fields">
                             <div class="columns">
                                 <div class="column">
                                     <div class="field">
-                                        <input id="title" name="option-1" class="input" type="text" placeholder="Mango">
+                                        <input id="title" name="options[]" class="input" type="text" placeholder="Mango">
                                     </div>
                                 </div>
                             </div>
                             <div class="columns">
                                 <div class="column">
                                     <div class="field">
-                                        <input id="title" name="option-2" class="input" type="text" placeholder="Banana">
+                                        <input id="title" name="options[]" class="input" type="text" placeholder="Banana">
                                     </div>
                                 </div>
                             </div>

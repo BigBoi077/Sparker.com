@@ -8,6 +8,7 @@
     <?php include_once "app/header.php"; ?>
     <div class="columns is-centered">
         <div class="column">
+            <h1 class="title is-4"><?php echo $_SESSION['debug']; ?></h1>
             <h1 class="title is-4">With great power comes great responsibility.</h1>
             <h1 class="title is-4">So what will you choose today ?</h1>
         </div>
