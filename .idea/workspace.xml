@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="generated polls for users">
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="reworked log in adn sign up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/sign-up-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sign-up-form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
@@ -79,7 +79,7 @@
       <workItem from="1615076407201" duration="7031000" />
       <workItem from="1615132655631" duration="18017000" />
       <workItem from="1615208956932" duration="589000" />
-      <workItem from="1615210140833" duration="31951000" />
+      <workItem from="1615210140833" duration="32352000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615238226905</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="reworked log in adn sign up">
+      <created>1615247189543</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1615247189543</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +225,7 @@
     <MESSAGE value="CODE ! CODE ! CODE !" />
     <MESSAGE value="fixed redirection problems on poll creations" />
     <MESSAGE value="generated polls for users" />
-    <option name="LAST_COMMIT_MESSAGE" value="generated polls for users" />
+    <MESSAGE value="reworked log in adn sign up" />
+    <option name="LAST_COMMIT_MESSAGE" value="reworked log in adn sign up" />
   </component>
 </project>
