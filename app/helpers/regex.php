@@ -7,17 +7,17 @@ function getUsernameRegex(): string
 
 function getNamesRegex(): string
 {
-    return "/^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/u";
+    return "/^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/";
 }
 
 function getPasswordRegex(): string
 {
-    return "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,40}$";
+    return "/^(?=.+[a-z])(?=.+[A-Z])(?=.+\d)(?=.+[^a-zA-Z\d])$/";
 }
 
 function getSsnRegex(): string
 {
-    return "^(?!666|000|9\\d{2})\\d{3}-(?!00)\\d{2}-(?!0{4})\\d{4}$";
+    return "/^[\d]{9}$/";
 }
 
 function getPhoneNumberRegex(): string
@@ -27,5 +27,5 @@ function getPhoneNumberRegex(): string
 
 function getAddressRegex(): string
 {
-    return "/[A-Za-z0-9\-\\,.]+/";
+    return "/^(?=.+[a-z])(?=.+[A-Z])(?=.*\d)(?=.*[,.\- ])$/";
 }

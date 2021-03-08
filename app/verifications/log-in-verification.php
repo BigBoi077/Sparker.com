@@ -15,11 +15,6 @@ if (!isset($_SESSION['is_logged'])) {
         redirect("../index.php");
     } else {
         $user = getAllUserRows($username);
-        $_SESSION['is_logged'] = true;
-        $_SESSION['user_id'] = $user['id'];
-        $_SESSION['firstname'] = $user['firstname'];
-        $_SESSION['lastname'] = $user['lastname'];
-        $_SESSION['is_admin'] = $user['isAdmin'];
-        redirect("/Sparker.com/votes.php");
+        logInAndRedirect($user, "/Sparker.com/votes.php");
     }
 }

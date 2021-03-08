@@ -20,14 +20,24 @@ function redirect(string $file)
     exit;
 }
 
-function registerUser($user)
-{
-    // $saltPepperPassword = password_hash('PASSWORD HERE' . PASSWORD_PEPPER, PASSWORD_DEFAULT);
-    $user->password = password_hash(getPostContent('password') . PASSWORD_PEPPER, PASSWORD_DEFAULT);
-
-}
-
 function sanitize(string $string): string
 {
     return strip_tags(addslashes($string));
+}
+
+function logInAndRedirect($user, $location)
+{
+    $_SESSION['is_logged'] = true;
+    $_SESSION['user_id'] = $user['id'];
+    $_SESSION['firstname'] = $user['firstname'];
+    $_SESSION['lastname'] = $user['lastname'];
+    $_SESSION['is_admin'] = $user['isAdmin'];
+    redirect($location);
+}
+
+function refillField(string $fieldName)
+{
+    if (isset($_SESSION[$fieldName])) {
+        echo $_SESSION[$fieldName];
+    }
 }

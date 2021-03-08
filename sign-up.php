@@ -12,7 +12,7 @@
             include_once "app/components/sign-up-form.php";
         ?>
     </div>
-    <script type="module" src="./javascripts/app.js"></script>
+    <script type="module" src="./javascripts/sign-up.js"></script>
     <?php include_once "app/components/footer.php" ?>
 </body>
 </html>

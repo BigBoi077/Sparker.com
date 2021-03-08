@@ -7,7 +7,7 @@ function getUserQuery($username): string
             WHERE username = '$username'";
 }
 
-function getUserInsert($user):string
+function getUserInsert(User $user):string
 {
     return "INSERT INTO account (username, fisrtname, lastname, email, password, ssn, phoneNumber, address, gender, isAdmin)
             VALUES ('$user->username', '$user->firstname', '$user->lastname', '$user->email',

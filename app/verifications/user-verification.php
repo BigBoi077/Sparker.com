@@ -41,7 +41,7 @@ function isAddressValid($user): bool
 function isPhoneNumberValid($user): bool
 {
     if (doesntMatchRegex(getPhoneNumberRegex(), $user->phoneNumber)) {
-        addError("Phone number is not valid. Try adding seperators ?");
+        addError("Phone number is not valid. Try adding separators ?");
         return false;
     }
     return true;
@@ -49,7 +49,6 @@ function isPhoneNumberValid($user): bool
 
 function isSocialSecurityNumberValid($user): bool
 {
-    return true; // TODO : remove this on launch
     if (doesntMatchRegex(getSsnRegex(), $user->ssn)) {
         addError("Social security number must be 9 characters long");
         return false;
@@ -59,7 +58,6 @@ function isSocialSecurityNumberValid($user): bool
 
 function isPasswordValid($user): bool
 {
-    return true; // TODO : remove this on launch
     if (doesntMatchRegex(getPasswordRegex(), $user->password)) {
         addError("Password must contain a capital letter, a lower case letter, 
                   a number, a special character and be minimum 8 characters long");

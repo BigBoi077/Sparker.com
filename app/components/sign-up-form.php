@@ -1,11 +1,16 @@
+<?php
+
+require_once "app/functions.php";
+
+?>
 <div class="columns mt-4 is-centered is-four-fifths">
-    <form action="/Sparker.com/app/sign-up-verification.php" id="sign-up-form" class="box" method="post">
+    <form action="/Sparker.com/app/verifications/sign-up-verification.php" id="sign-up-form" class="box" method="post">
         <div class="columns">
             <div class="column">
                 <div class="field">
                     <label class="label" for="firstname">Firstname</label>
                     <div class="control">
-                        <input id="firstname" name="firstname" class="input" type="text" placeholder="Chris">
+                        <input value="<?php refillField("firstname"); ?>" id="firstname" name="firstname" class="input" type="text" placeholder="Chris">
                     </div>
                 </div>
             </div>
@@ -82,15 +87,15 @@
             <div class="column">
                 <div class="control">
                     <label class="radio">
-                        <input type="radio" value="Male" name="gender">
+                        <input type="radio" class="radio-gender" value="Male" name="gender">
                         Male
                     </label>
                     <label class="radio">
-                        <input type="radio" value="Female" name="gender">
+                        <input type="radio" class="radio-gender" value="Female" name="gender">
                         Female
                     </label>
                     <label class="radio" disabled>
-                        <input type="radio" value="Apache_Helicopter" name="gender">
+                        <input type="radio" class="radio-gender" value="Apache_Helicopter" name="gender">
                         Apache Helicopter
                     </label>
                 </div>
