@@ -41,19 +41,30 @@ function getSingleUserInformation($username, $columns): string
 function getAllPolls(Database $db): array
 {
     $result = $db->query(getAllPollsQuery());
-    $rows = $db->fetch($result);
+    $rows = $db->fetchAll($result);
     if (is_null($rows)) {
         return [];
     }
     return $rows;
 }
 
-function getVotedPostByUser(Database $db, string $userId, string $pollId): array
+
+function getAccordingOptionsForPoll(Database $db, string $pollId): array
 {
-    $result = $db->query(getUserVotedPollsQuery($userId, $pollId));
-    $rows = $db->fetch($result);
+    $result = $db->query(getAccordingOptionsForPollQuery($pollId));
+    $rows = $db->fetchAll($result);
     if (is_null($rows)) {
         return [];
     }
     return $rows;
+}
+
+function userVotedPoll(Database $db, string $userId, string $pollId): bool
+{
+    $result = $db->query(getUserVotedPollsQuery($userId, $pollId));
+    $rows = $db->fetch($result);
+    if (is_null($rows)) {
+        return false;
+    }
+    return true;
 }

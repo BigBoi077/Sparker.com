@@ -9,32 +9,40 @@ function getUserQuery($username): string
 
 function getUserInsert($user):string
 {
-    return "INSERT INTO account (username, fisrtname, lastname, email, password, ssn, phoneNisumber, address, gender, isAdmin)
+    return "INSERT INTO account (username, fisrtname, lastname, email, password, ssn, phoneNumber, address, gender, isAdmin)
             VALUES ('$user->username', '$user->firstname', '$user->lastname', '$user->email',
                     '$user->password', '$user->ssn', '$user->phoneNumber', '$user->address', '$user->gender', 0)";
 }
 
 function getPollInsertQuery($title, $description): string
 {
-    return "INSERT INTO poll (title, description) VALUES ('$title', '$description');";
+    return "INSERT INTO poll (title, description) 
+            VALUES ('$title', '$description');";
 }
 
 function getOptionInsertQuery($value, $pollId): string
 {
-    return "INSERT INTO option (description, id_poll) VALUES ('$value', '$pollId')";
+    return "INSERT INTO option (description, id_poll) 
+            VALUES ('$value', '$pollId')";
 }
 
 function getAllPollsQuery(): string
 {
-    return "SELECT id, title, description FROM poll";
+    return "SELECT id, title, description 
+            FROM poll";
 }
 
-function getAccordingOptionsForPoll($pollId): string
+function getAccordingOptionsForPollQuery($pollId): string
 {
-    return "SELECT id, description FROM option WHERE id = '$pollId'";
+    return "SELECT id, description, id_poll
+            FROM pollOption 
+            WHERE id_poll = '$pollId'";
 }
 
 function getUserVotedPollsQuery($userId, $pollId): string
 {
-    return "";
+    return "SELECT id_poll 
+            FROM accountVote 
+            WHERE  '$userId' = id_account 
+            AND '$pollId' = id_poll";
 }

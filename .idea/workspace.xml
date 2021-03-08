@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="CODE ! CODE ! CODE !">
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="fixed redirection problems on poll creations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/creators/poll-creation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/creators/poll-creation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/classes/ElementCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/ElementCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/classes/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/creators/generate-votes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/creators/generate-votes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/queries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/votes.php" beforeDir="false" afterPath="$PROJECT_DIR$/votes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
       <workItem from="1615076407201" duration="7031000" />
       <workItem from="1615132655631" duration="18017000" />
       <workItem from="1615208956932" duration="589000" />
-      <workItem from="1615210140833" duration="14777000" />
+      <workItem from="1615210140833" duration="23795000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -163,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615224688328</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fixed redirection problems on poll creations">
+      <created>1615227405861</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1615227405861</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +203,7 @@
     <MESSAGE value="made a functional add/remove panel" />
     <MESSAGE value="option insertion fixed" />
     <MESSAGE value="CODE ! CODE ! CODE !" />
-    <option name="LAST_COMMIT_MESSAGE" value="CODE ! CODE ! CODE !" />
+    <MESSAGE value="fixed redirection problems on poll creations" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed redirection problems on poll creations" />
   </component>
 </project>

@@ -55,4 +55,9 @@ class Database
     {
         mysqli_close($this->connection);
     }
+
+    public function fetchAll(mysqli_result $result): array
+    {
+        return mysqli_fetch_all($result);
+    }
 }
