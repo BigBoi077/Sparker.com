@@ -1,5 +1,4 @@
 import {placeClickEvent} from "../helpers/eventPlacers.js";
-import {getAllElements} from "../helpers/elementGetter.js";
 import ElementCreator from "./ElementCreator.js";
 
 export default class EventPlacer {
@@ -16,8 +15,7 @@ export default class EventPlacer {
         })
     }
 
-    randomizeGender() {
-        const radioButtons = getAllElements("radio-gender")
-        radioButtons[Math.random() * radioButtons.length + 1].checked = true
+    placeRemovePollEvent() {
+        placeClickEvents(document.getElementsByClassName("vote"))
     }
 }

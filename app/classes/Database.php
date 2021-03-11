@@ -41,6 +41,16 @@ class Database
         return TRUE;
     }
 
+    public function update(string $sql): bool
+    {
+        $resultSet = mysqli_query($this->connection, $sql);
+        if (!$resultSet) {
+            die(mysqli_error($this->connection));
+        }
+
+        return TRUE;
+    }
+
     public function fetch(mysqli_result $resultSet): ?array
     {
         return mysqli_fetch_assoc($resultSet);

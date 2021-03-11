@@ -5,12 +5,13 @@ require_once "app/helpers/queries.php";
 
 $db = buildDatabase();
 $polls = getAllPolls($db);
+$userId = $_SESSION['user_id'];
 
 foreach ($polls as $poll) {
     $pollId = $poll[0];
     if (!userVotedPoll($db, $_SESSION['user_id'], $pollId)) {
         ?>
-        <form action="" class="box is-7">
+        <form action="/Sparker.com/app/submit-form.php" class="box is-7" method="post">
             <div class="columns">
                 <div class="column is-4">
                     <?php echo $poll[1]; ?>
@@ -23,12 +24,12 @@ foreach ($polls as $poll) {
                 <div class="column">
                     <div class="control d-flex justify-content-center">
                         <div class="select">
-                            <select>
+                            <select name="option">
                                 <?php
                                 $options = getAccordingOptionsForPoll($db, $poll[0]);
                                 foreach ($options as $singleOption) {
                                     ?>
-                                    <option>
+                                    <option value="<?php echo "$singleOption[1]-$pollId-$singleOption[0]-$userId" ; ?>">
                                         <?php echo $singleOption[1]; ?>
                                     </option>
                                     <?php

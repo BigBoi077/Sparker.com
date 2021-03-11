@@ -46,3 +46,25 @@ function getUserVotedPollsQuery($userId, $pollId): string
             WHERE  '$userId' = id_account 
             AND '$pollId' = id_poll";
 }
+
+function getNbrVotesOptionQuery($pollId, $optionId, $optionValue): string
+{
+    return "SELECT nbrVotes
+            FROM pollOption
+            WHERE description = '$optionValue' 
+            AND id = '$optionId'
+            AND id_poll = '$pollId'";
+}
+
+function getIncrementOptionVoteQuery($optionId, $nbrVotes): string
+{
+    return "UPDATE pollOption 
+            SET nbrVotes = '$nbrVotes'
+            WHERE id = '$optionId'";
+}
+
+function getUserPollInsertQuery($userId, $pollId): string
+{
+    return "INSERT INTO accountVote (id_account, id_poll)
+            VALUES ('$userId', '$pollId')";
+}
