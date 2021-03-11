@@ -12,7 +12,7 @@ function getNamesRegex(): string
 
 function getPasswordRegex(): string
 {
-    return "/^(?=.+[a-z])(?=.+[A-Z])(?=.+\d)(?=.+[^a-zA-Z\d])$/";
+    return "/^(?=.*[!@#$%^&*-])(?=.*[0-9])(?=.*[A-Z]).{8,20}$/";
 }
 
 function getSsnRegex(): string
@@ -27,5 +27,5 @@ function getPhoneNumberRegex(): string
 
 function getAddressRegex(): string
 {
-    return "/^(?=.+[a-z])(?=.+[A-Z])(?=.*\d)(?=.*[,.\- ])$/";
+    return "/^(?=.+[0-9])(?=.*[A-Z]).{8,}$/";
 }

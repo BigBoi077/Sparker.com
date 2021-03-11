@@ -19,7 +19,7 @@ if (!$_SESSION['is_logged']) {
 <body>
 <div class="container mt-4 mb-4">
     <?php include_once "app/components/header.php"; ?>
-    <div class="columns is-centered">
+    <div class="columns">
         <div class="column is-four-fifths">
             <h1 class="title is-4">Hi <?php echo $_SESSION['firstname']; ?>, here are today's top polls</h1>
         </div>
@@ -27,6 +27,7 @@ if (!$_SESSION['is_logged']) {
             <a href="app/helpers/logout.php" class="is-pulled-right button form-button"><i class="fas fa-power-off mr-1"></i>Logout</a>
         </div>
     </div>
+    <hr>
     <div class="columns d-flex justify-content-center">
         <div class="column is-7">
             <?php include_once "app/creators/generate-votes.php" ?>

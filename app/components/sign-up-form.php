@@ -18,7 +18,7 @@ require_once "app/functions.php";
                 <div class="field">
                     <label class="label" for="lastname">Lastname</label>
                     <div class="control">
-                        <input id="lastname" name="lastname" class="input" type="text" placeholder="Redfield">
+                        <input value="<?php refillField("lastname"); ?>" id="lastname" name="lastname" class="input" type="text" placeholder="Redfield">
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@ require_once "app/functions.php";
                 <div class="field">
                     <label class="label" for="username">Username</label>
                     <div class="control">
-                        <input id="username" name="username" class="input" type="text" placeholder="C_Red_73">
+                        <input value="<?php refillField("username"); ?>" id="username" name="username" class="input" type="text" placeholder="C_Red_73">
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ require_once "app/functions.php";
                 <div class="field">
                     <label class="label" for="email">Email</label>
                     <div class="control">
-                        <input id="email" name="email" class="input" type="email" placeholder="Redfield@Stars.com">
+                        <input value="<?php refillField("email"); ?>" id="email" name="email" class="input" type="email" placeholder="Redfield@Stars.com">
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ require_once "app/functions.php";
                 <div class="field">
                     <label class="label" for="password">Password</label>
                     <div class="control">
-                        <input id="password" name="password" class="input" type="password" placeholder="********">
+                        <input value="<?php refillField("password"); ?>" id="password" name="password" class="input" type="password" placeholder="********">
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ require_once "app/functions.php";
                 <div class="field">
                     <label class="label" for="ssn">Social Security Number</label>
                     <div class="control">
-                        <input id="ssn" name="ssn" class="input" type="number" placeholder="322 656 968">
+                        <input value="<?php refillField("ssn"); ?>" id="ssn" name="ssn" class="input" type="number" placeholder="322 656 968">
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ require_once "app/functions.php";
                 <div class="field">
                     <label class="label" for="phone-number">Phone Number</label>
                     <div class="control">
-                        <input id="phone-number" name="phone-number" class="input" type="text" placeholder="450-559-1548">
+                        <input value="<?php refillField("phone-number"); ?>" id="phone-number" name="phone-number" class="input" type="text" placeholder="450-559-1548">
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@ require_once "app/functions.php";
                 <div class="field">
                     <label class="label" for="address">Address</label>
                     <div class="control">
-                        <input id="address" name="address" class="input" type="text" placeholder="16 Avenue, Racoon City">
+                        <input value="<?php refillField("address"); ?>" id="address" name="address" class="input" type="text" placeholder="16 Avenue, Racoon City">
                     </div>
                 </div>
             </div>

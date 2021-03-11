@@ -17,7 +17,7 @@ function isUserValid($user): bool
         && isGenderValid($user);
 }
 
-function isGenderValid($user): bool
+function isGenderValid(User $user): bool
 {
     $gender = $user->gender;
     if (!strcmp ("Male", $gender) &&
@@ -29,7 +29,7 @@ function isGenderValid($user): bool
     return true;
 }
 
-function isAddressValid($user): bool
+function isAddressValid(User $user): bool
 {
     if(doesntMatchRegex(getAddressRegex(), $user->address)) {
         addError("Address is invalid");
@@ -38,7 +38,7 @@ function isAddressValid($user): bool
     return true;
 }
 
-function isPhoneNumberValid($user): bool
+function isPhoneNumberValid(User $user): bool
 {
     if (doesntMatchRegex(getPhoneNumberRegex(), $user->phoneNumber)) {
         addError("Phone number is not valid. Try adding separators ?");
@@ -47,7 +47,7 @@ function isPhoneNumberValid($user): bool
     return true;
 }
 
-function isSocialSecurityNumberValid($user): bool
+function isSocialSecurityNumberValid(User $user): bool
 {
     if (doesntMatchRegex(getSsnRegex(), $user->ssn)) {
         addError("Social security number must be 9 characters long");
@@ -56,7 +56,7 @@ function isSocialSecurityNumberValid($user): bool
     return true;
 }
 
-function isPasswordValid($user): bool
+function isPasswordValid(User $user): bool
 {
     if (doesntMatchRegex(getPasswordRegex(), $user->password)) {
         addError("Password must contain a capital letter, a lower case letter, 
@@ -66,7 +66,7 @@ function isPasswordValid($user): bool
     return true;
 }
 
-function isUsernameValid($user): bool
+function isUsernameValid(User $user): bool
 {
     $db = buildDatabase();
     $result = $db->query(getUserQuery($user->username));
@@ -84,7 +84,7 @@ function isUsernameValid($user): bool
     return true;
 }
 
-function isEmailValid($user): bool
+function isEmailValid(User $user): bool
 {
     if (!filter_var($user->email, FILTER_VALIDATE_EMAIL)) {
         addError("Email format is invalid");
@@ -93,7 +93,7 @@ function isEmailValid($user): bool
     return true;
 }
 
-function areNamesValid($user): bool
+function areNamesValid(User $user): bool
 {
     if (areNamesOk($user)) {
         addError("Name fields are invalid");

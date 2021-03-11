@@ -7,16 +7,11 @@
     <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="reworked log in adn sign up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/sign-up-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/sign-up-form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/getter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/getter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/queries.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helpers/regex.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/regex.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helpers/sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sql.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/verifications/log-in-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/verifications/log-in-verification.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/verifications/sign-up-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/verifications/sign-up-verification.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/verifications/user-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/verifications/user-verification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/classes/EventPlacer.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/EventPlacer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sign-up.php" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/votes.php" beforeDir="false" afterPath="$PROJECT_DIR$/votes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,8 @@
       <workItem from="1615076407201" duration="7031000" />
       <workItem from="1615132655631" duration="18017000" />
       <workItem from="1615208956932" duration="589000" />
-      <workItem from="1615210140833" duration="32352000" />
+      <workItem from="1615210140833" duration="32475000" />
+      <workItem from="1615493223255" duration="1641000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -193,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615247189543</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="reworked log in adn sign up">
+      <created>1615247457639</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615247457639</updated>
+    </task>
+    <task id="LOCAL-00018" summary="reworked log in adn sign up">
+      <created>1615247475519</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1615247475519</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -12,6 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     getUserContent($user);
     if (isUserValid($user)) {
         registerUser($user);
+        $user = getAllUserRows($user->username);
         logInAndRedirect($user, "/Sparker.com/votes.php");
     }
     redirect("/Sparker.com/sign-up.php");

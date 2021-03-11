@@ -9,7 +9,7 @@ function getUserQuery($username): string
 
 function getUserInsert(User $user):string
 {
-    return "INSERT INTO account (username, fisrtname, lastname, email, password, ssn, phoneNumber, address, gender, isAdmin)
+    return "INSERT INTO account (username, firstname, lastname, email, password, ssn, phoneNumber, address, gender, isAdmin)
             VALUES ('$user->username', '$user->firstname', '$user->lastname', '$user->email',
                     '$user->password', '$user->ssn', '$user->phoneNumber', '$user->address', '$user->gender', 0)";
 }
