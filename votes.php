@@ -34,6 +34,7 @@ if (!$_SESSION['is_logged']) {
         </div>
     </div>
 </div>
+<script type="module" src="javascripts/votes.js"></script>
 <?php include_once "app/components/footer.php"; ?>
 </body>
 </html>

@@ -7,9 +7,3 @@ export function placeRadioEvent(radioField) {
 export function placeClickEvent(elem, callback) {
     elem.addEventListener("click", callback)
 }
-
-export function placeClickEvents(elemList, callback) {
-    for (elem in elemList) {
-
-    }
-}

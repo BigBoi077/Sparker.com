@@ -38,4 +38,8 @@ export default class ElementCreator {
                 </div>`
         return div
     }
+
+    removeParentElement(e) {
+        console.log('hello')
+    }
 }

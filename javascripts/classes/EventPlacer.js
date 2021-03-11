@@ -1,11 +1,12 @@
 import {placeClickEvent} from "../helpers/eventPlacers.js";
-import ElementCreator from "./ElementCreator.js";
+import {getAccordingElement, getAllElements} from "../helpers/elementGetter.js"
+import ElementManager from "./ElementCreator.js";
 
 export default class EventPlacer {
 
     placeClickEvents(app) {
         placeClickEvent(document.getElementById("add-option"), function () {
-            new ElementCreator().createNewInputField(app)
+            new ElementManager().createNewInputField(app)
         })
     }
 
@@ -16,6 +17,15 @@ export default class EventPlacer {
     }
 
     placeRemovePollEvent() {
-        placeClickEvents(document.getElementsByClassName("vote"))
+        const elemList = getAllElements("vote")
+        for (let i = 0; i < elemList.length; i++) {
+            console.log(elemList[i].parentNode)
+            placeClickEvent(elemList[i], function () {
+                const button = elemList[i]
+                const formTarget = button.getAttribute("data-target-poll")
+                const wantedDeletedElement = getAccordingElement("data-form-id", formTarget)
+                wantedDeletedElement.parentNode.removeChild(wantedDeletedElement);
+            })
+        }
     }
 }
