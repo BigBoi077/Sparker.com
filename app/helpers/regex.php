@@ -27,5 +27,5 @@ function getPhoneNumberRegex(): string
 
 function getAddressRegex(): string
 {
-    return "/^(?=.+[0-9])(?=.*[A-Z]).{8,}$/";
+    return "/^(?=.*[0-9])(?=.*[A-Z]).{8,}$/";
 }

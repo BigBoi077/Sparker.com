@@ -22,7 +22,7 @@ function getPollInsertQuery($title, $description): string
 
 function getOptionInsertQuery($value, $pollId): string
 {
-    return "INSERT INTO option (description, id_poll) 
+    return "INSERT INTO pollOption (description, id_poll) 
             VALUES ('$value', '$pollId')";
 }
 

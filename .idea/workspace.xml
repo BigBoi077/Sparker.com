@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="updated nbrvotes">
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="made so that polls remove them self when voted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/creators/generate-votes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/creators/generate-votes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/classes/ElementCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/ElementCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/regex.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/regex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/submit-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/submit-form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascripts/classes/EventPlacer.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/EventPlacer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/helpers/eventPlacers.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/helpers/eventPlacers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/votes.php" beforeDir="false" afterPath="$PROJECT_DIR$/votes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <workItem from="1615132655631" duration="18017000" />
       <workItem from="1615208956932" duration="589000" />
       <workItem from="1615210140833" duration="32475000" />
-      <workItem from="1615493223255" duration="8767000" />
+      <workItem from="1615493223255" duration="11227000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615501053215</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="made so that polls remove them self when voted">
+      <created>1615502696205</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615502696205</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +258,7 @@
     <MESSAGE value="reworked log in adn sign up" />
     <MESSAGE value="can now insert user !" />
     <MESSAGE value="updated nbrvotes" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated nbrvotes" />
+    <MESSAGE value="made so that polls remove them self when voted" />
+    <option name="LAST_COMMIT_MESSAGE" value="made so that polls remove them self when voted" />
   </component>
 </project>

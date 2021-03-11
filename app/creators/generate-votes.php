@@ -40,7 +40,7 @@ foreach ($polls as $poll) {
                     </div>
                     <div class="column d-flex justify-content-center">
                         <div class="control">
-                            <button class="button is-success vote" data-target-poll="<?= $pollId?>">Submit</button>
+                            <button type="submit" class="button is-success vote" data-target-poll="<?= $pollId?>">Submit</button>
                         </div>
                     </div>
                 </div>
