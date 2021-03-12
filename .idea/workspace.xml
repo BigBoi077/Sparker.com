@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="fixed previous commit">
+      <change afterPath="$PROJECT_DIR$/javascripts/graphs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/creators/generate-votes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/creators/generate-votes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/submit-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/submit-form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascripts/classes/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/classes/ElementCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/ElementCreator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascripts/classes/EventPlacer.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/EventPlacer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/classes/FormVerifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/FormVerifier.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/classes/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/helpers/elementGetter.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/helpers/elementGetter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/helpers/eventPlacers.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/helpers/eventPlacers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/sign-up.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/sign-up.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/votes.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/votes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/votes.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +77,7 @@
       <workItem from="1615210140833" duration="32475000" />
       <workItem from="1615493223255" duration="12516000" />
       <workItem from="1615512297091" duration="81000" />
+      <workItem from="1615517506497" duration="853000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>

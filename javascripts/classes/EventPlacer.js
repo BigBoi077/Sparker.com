@@ -15,18 +15,4 @@ export default class EventPlacer {
             return app.user.isFieldsValid();
         })
     }
-
-    placeRemovePollEvent() {
-        const elemList = getAllElements("vote")
-        for (let i = 0; i < elemList.length; i++) {
-            placeClickEvent(elemList[i], function () {
-                setTimeout(function(){
-                    const button = elemList[i];
-                    const formTarget = button.getAttribute("data-target-poll");
-                    const wantedDeletedElement = getAccordingElement("data-form-id", formTarget);
-                    wantedDeletedElement.parentNode.removeChild(wantedDeletedElement);
-                }, 3000);
-            })
-        }
-    }
 }

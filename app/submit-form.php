@@ -16,5 +16,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     updateNbrVotesOption($optionId, $pollOption['nbrVotes'] + 1);
     insertUserPoll($userId, $pollId);
+    $pollId--;
 }
-redirect("../votes.php");
+redirect("../votes.php#$pollId");

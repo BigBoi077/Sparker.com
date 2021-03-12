@@ -16,10 +16,6 @@ export default class App {
         new EventPlacer().placeSubmitEvent(this);
     }
 
-    placeRemovePollEvent() {
-        new EventPlacer().placeRemovePollEvent();
-    }
-
     incrementOptionIndex() {
         this.optionIndex++;
     }

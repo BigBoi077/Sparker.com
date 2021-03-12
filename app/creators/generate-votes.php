@@ -11,7 +11,7 @@ foreach ($polls as $poll) {
     $pollId = $poll[0];
     if (!userVotedPoll($db, $_SESSION['user_id'], $pollId)) {
         ?>
-        <form action="/Sparker.com/app/submit-form.php" class="box is-7" method="post" data-form-id="<?= $pollId ?>">
+        <form action="/Sparker.com/app/submit-form.php" class="box is-7" method="post" id="<?= $pollId ?>">
             <div class="columns">
                 <div class="column is-4">
                     <?php echo $poll[1]; ?>
@@ -40,7 +40,7 @@ foreach ($polls as $poll) {
                     </div>
                     <div class="column d-flex justify-content-center">
                         <div class="control">
-                            <button type="submit" class="button is-success vote" data-target-poll="<?= $pollId?>">Submit</button>
+                            <button type="submit" class="button is-success vote">Submit</button>
                         </div>
                     </div>
                 </div>
