@@ -1,4 +1,4 @@
-import App from "./classes/App.js"
+import App from "./classes/App.js";
 
-const app = new App()
-app.placeRemovePollEvent()
+const app = new App();
+app.placeRemovePollEvent();

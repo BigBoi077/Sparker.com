@@ -1,30 +1,30 @@
-import User from "../classes/User.js"
-import EventPlacer from "../classes/EventPlacer.js"
+import User from "../classes/User.js";
+import EventPlacer from "../classes/EventPlacer.js";
 
 export default class App {
 
     constructor() {
-        this.optionIndex = 4
+        this.optionIndex = 4;
     }
 
     placeOptionCreationEvents() {
-        new EventPlacer().placeClickEvents(this)
+        new EventPlacer().placeClickEvents(this);
     }
 
     placeFormSubmitEvent() {
-        this.user = new User()
-        new EventPlacer().placeSubmitEvent(this)
+        this.user = new User();
+        new EventPlacer().placeSubmitEvent(this);
     }
 
     placeRemovePollEvent() {
-        new EventPlacer().placeRemovePollEvent()
+        new EventPlacer().placeRemovePollEvent();
     }
 
     incrementOptionIndex() {
-        this.optionIndex++
+        this.optionIndex++;
     }
 
     decrementOptionIndex() {
-        this.optionIndex--
+        this.optionIndex--;
     }
 }

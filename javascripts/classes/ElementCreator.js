@@ -3,26 +3,26 @@ import {getAccordingElement, getAllElements, getSingleElement} from "../helpers/
 export default class ElementCreator {
 
     createNewInputField(app) {
-        const inputFields = getSingleElement("input-fields")
-        inputFields.append(this.getInputFieldNode(app.optionIndex))
-        app.incrementOptionIndex()
+        const inputFields = getSingleElement("input-fields");
+        inputFields.append(this.getInputFieldNode(app.optionIndex));
+        app.incrementOptionIndex();
 
-        const deleteButtons = getAllElements("remove-button")
+        const deleteButtons = getAllElements("remove-button");
         for (let i =0; i < deleteButtons.length; i++) {
-            const button = deleteButtons[i]
+            const button = deleteButtons[i];
             button.addEventListener("click", function () {
-                const optionTarget = button.getAttribute("data-option-target")
-                const wantedDeletedElement = getAccordingElement("data-option-div", optionTarget)
+                const optionTarget = button.getAttribute("data-option-target");
+                const wantedDeletedElement = getAccordingElement("data-option-div", optionTarget);
                 wantedDeletedElement.parentNode.removeChild(wantedDeletedElement);
-                app.decrementOptionIndex()
+                app.decrementOptionIndex();
             })
         }
     }
 
     getInputFieldNode(optionNumber) {
-        const div = document.createElement("div")
-        div.classList.add("field")
-        div.setAttribute("data-option-div", `option-${optionNumber}`)
+        const div = document.createElement("div");
+        div.classList.add("field");
+        div.setAttribute("data-option-div", `option-${optionNumber}`);
         div.innerHTML =
                 `<div class="columns">
                     <div class="column is-11">
@@ -35,11 +35,7 @@ export default class ElementCreator {
                             </span>
                         </button>
                     </div>
-                </div>`
-        return div
-    }
-
-    removeParentElement(e) {
-        console.log('hello')
+                </div>`;
+        return div;
     }
 }

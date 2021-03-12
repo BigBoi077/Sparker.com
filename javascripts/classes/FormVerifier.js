@@ -1,5 +1,5 @@
 function isNamesOk(fname, lname, uname) {
-    return fname.length > 0 && lname.length > 0 && uname.length > 0
+    return fname.length > 0 && lname.length > 0 && uname.length > 0;
 }
 
 function isEmailOk(email) {
@@ -15,7 +15,7 @@ function islenghtExect(value, absoluteLength) {
 }
 
 function isPhoneNumberOk(phoneNumber) {
-    const regex = new RegExp("^(\\+\\d{1,2}\\s)?\\(?\\d{3}\\)?[\\s.-]\\d{3}[\\s.-]\\d{4}$")
+    const regex = new RegExp("^(\\+\\d{1,2}\\s)?\\(?\\d{3}\\)?[\\s.-]\\d{3}[\\s.-]\\d{4}$");
     return regex.test(phoneNumber);
 }
 
@@ -26,6 +26,6 @@ export default class FormVerifier {
             && islenghtOk(user.password.value, 10)
             && islenghtExect(user.ssn.value, 9)
             && isPhoneNumberOk(user.phoneNumber)
-            && islenghtOk(user.address, 15)
+            && islenghtOk(user.address, 15);
     }
 }
