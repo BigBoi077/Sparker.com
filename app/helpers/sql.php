@@ -68,3 +68,9 @@ function getUserPollInsertQuery($userId, $pollId): string
     return "INSERT INTO accountVote (id_account, id_poll)
             VALUES ('$userId', '$pollId')";
 }
+
+function getNbrPollsQuery(): string
+{
+    return "SELECT COUNT(id) as nbrPolls
+            FROM poll";
+}

@@ -78,14 +78,14 @@ function registerUser(User $user)
     $db->close();
 }
 
-function getNbrVotesForOption($pollId, $optionId, $optionValue)
+function getNbrVotesForOption($pollId, $optionId, $optionValue): array
 {
     $db = buildDatabase();
     $result = $db->query(getNbrVotesOptionQuery($pollId, $optionId, $optionValue));
     $rows = $db->fetch($result);
     $db->close();
     if (is_null($rows)) {
-        return 0;
+        return [];
     }
     return $rows;
 }
@@ -102,4 +102,16 @@ function insertUserPoll($userId, $pollId)
     $db = buildDatabase();
     $db->update(getUserPollInsertQuery($userId, $pollId));
     $db->close();
+}
+
+function getNbrPolls()
+{
+    $db = buildDatabase();
+    $result = $db->query(getNbrPollsQuery());
+    $rows = $db->fetch($result);
+    $db->close();
+    if (is_null($rows)) {
+        return 0;
+    }
+    return $rows['nbrPolls'];
 }
