@@ -12,7 +12,7 @@ if (!isset($_SESSION['is_logged'])) {
     if (!isLogInInformationValid($username, $password, $hashPassword)) {
         $_SESSION['error'] = "Wrong Credentials";
         sleep(2);
-        redirect("../index.php");
+        redirect("../../index.php");
     } else {
         $user = getAllUserRows($username);
         logInAndRedirect($user, "/Sparker.com/votes.php");

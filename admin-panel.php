@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,7 +6,12 @@
 </head>
 <body>
 <div class="container mt-4 mb-4">
-    <?php include_once "app/components/header.php"; ?>
+    <?php
+    include_once "app/components/header.php";
+    if (unauthorizedAccess()) {
+        redirect("./index.php");
+    }
+    ?>
     <div class="columns is-centered">
         <div class="column">
             <h1 class="title is-4">With great power comes great responsibility.</h1>

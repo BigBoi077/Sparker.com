@@ -71,6 +71,5 @@ function getUserPollInsertQuery($userId, $pollId): string
 
 function getNbrPollsQuery(): string
 {
-    return "SELECT COUNT(id) as nbrPolls
-            FROM poll";
+    return "";
 }

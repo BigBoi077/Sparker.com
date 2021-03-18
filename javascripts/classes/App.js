@@ -1,6 +1,5 @@
 import User from "../classes/User.js";
 import EventPlacer from "../classes/EventPlacer.js";
-import ElementCreator from "./ElementCreator.js";
 
 export default class App {
 
@@ -23,9 +22,5 @@ export default class App {
 
     decrementOptionIndex() {
         this.optionIndex--;
-    }
-
-    generateGraphs() {
-        new ElementCreator().createGraphs();
     }
 }

@@ -5,8 +5,13 @@
 </head>
 <body>
 <div class="container mt-4 mb-4">
-    <?php include_once "app/components/header.php";
-          include_once "app/components/errors.php"; ?>
+    <?php
+    include_once "app/components/header.php";
+    include_once "app/components/errors.php";
+    if (unauthorizedAccess()) {
+        redirect("./index.php");
+    }
+    ?>
     <div class="columns mt-4 is-centered">
             <div class="column is-three-fifths">
                 <form action="app/creators/poll-creation.php" id="create-poll" class="box mb-4 is-three-fifths" method="post">

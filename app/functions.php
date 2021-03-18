@@ -1,6 +1,6 @@
 <?php
 
-define('PASSWORD_PEPPER', 'm7yLxDiCgVlteqFdz7tHMpavoifD6Cnt5RJSeozCPWg=');
+define('PASSWORD_PEPPER', getenv("PASSWORD_PEPPER"));
 
 require_once "classes/Database.php";
 
@@ -40,4 +40,9 @@ function refillField(string $fieldName)
     if (isset($_SESSION[$fieldName])) {
         echo $_SESSION[$fieldName];
     }
+}
+
+function unauthorizedAccess(): bool
+{
+    return !$_SESSION['is_admin'] || !$_SESSION['is_logged'];
 }

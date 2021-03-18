@@ -104,7 +104,7 @@ function insertUserPoll($userId, $pollId)
     $db->close();
 }
 
-function getNbrPolls()
+function getAllPolsAndOptions()
 {
     $db = buildDatabase();
     $result = $db->query(getNbrPollsQuery());
