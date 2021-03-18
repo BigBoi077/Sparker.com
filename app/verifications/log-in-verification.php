@@ -3,18 +3,14 @@
 require_once "../functions.php";
 require_once "../helpers/queries.php";
 require_once "../helpers/cookies.php";
+require_once "../helpers/string.php";
 
 if (!isset($_SESSION['is_logged'])) {
     $username = sanitize($_POST['username']) ?? '';
     $password = sanitize($_POST['password']) ?? '';
-    $rememberMe = sanitize($_POST['rememberMe']) ?? '';
 
     $hashPassword = getSingleUserInformation($username, "password");
     createLog($username);
-
-    if ($rememberMe == "on") {
-        createCookie('REMEMBER_ME', "$username|$hashPassword");
-    }
 
     if (!isLogInInformationValid($username, $password, $hashPassword)) {
         $_SESSION['error'] = "Wrong Credentials";
@@ -22,6 +18,13 @@ if (!isset($_SESSION['is_logged'])) {
         redirect("../../index.php");
     } else {
         $user = getAllUserRows($username);
+
+        if (isset($_POST['rememberMe'])) {
+            $token = generateRandomString(64);
+            createCookie('REMEMBER_ME', $token);
+            createToken($user['id'], $token);
+        }
+
         logInAndRedirect($user, "/Sparker.com/votes.php");
     }
 }

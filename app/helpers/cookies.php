@@ -14,11 +14,5 @@ function deleteCookie($name)
 
 function isValidRememberMeCookie(): bool
 {
-    $user = explode('|', $_COOKIE['REMEMBER_ME']);
-    $username = $user[0];
-    $saltPepperPassword = $user[1];
-    if (empty($username) || empty($saltPepperPassword)) {
-        return false;
-    }
-    return validateUser($username, $saltPepperPassword);
+    return validateCookie($_COOKIE['REMEMBER_ME']);
 }

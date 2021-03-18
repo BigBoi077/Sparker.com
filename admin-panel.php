@@ -8,10 +8,12 @@
 <div class="container mt-4 mb-4">
     <?php
     include_once "app/components/header.php";
+
+    verifyRememberMeCookie();
+
     if (unauthorizedAccess()) {
         redirect("./index.php");
     }
-    verifyRememberMeCookie();
     ?>
     <div class="columns is-centered">
         <div class="column">

@@ -7,6 +7,7 @@ require_once "helpers/log.php";
 require_once "helpers/cookies.php";
 
 session_start();
+filterFormContent();
 
 function buildDatabase(): Database
 {
@@ -54,11 +55,17 @@ function createLog(string $username)
     insertNewLogInfo($username);
 }
 
+function filterFormContent()
+{
+
+}
+
 function verifyRememberMeCookie()
 {
-    if (isset($_COOKIE['REMEMBER_ME'])) {
-        if (isValidRememberMeCookie()) {
-            redirect("/Sparker.com/votes.php");
-        }
+    echo $_COOKIE['REMEMBER_ME'];
+    if (isValidRememberMeCookie()) {
+        $user = getAllUserRowsById($_SESSION['user_id']);
+        echo "LOG USER";
+        logInAndRedirect($user, "/Sparker.com/votes.php");
     }
 }

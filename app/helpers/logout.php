@@ -2,7 +2,9 @@
 
 require_once "../functions.php";
 require_once "cookies.php";
+require_once "queries.php";
 
-session_destroy();
 deleteCookie("REMEMBER_ME");
+removeTokenFromDatabase();
+session_destroy();
 redirect("/Sparker.com/index.php");

@@ -8,6 +8,16 @@ function getAllUserRows($username): ?array
     $result = $db->query(getUserQuery($username));
     $rows = $db->fetch($result);
     $db->close();
+
+    return $rows;
+}
+
+function getAllUserRowsById($id): ?array
+{
+    $db = buildDatabase();
+    $result = $db->query(getUserByIdQuery($id));
+    $rows = $db->fetch($result);
+    $db->close();
     return $rows;
 }
 
@@ -123,8 +133,30 @@ function insertLog(string $content)
     $db->close();
 }
 
-function validateUser($username, $saltPepperPassword): bool
+function validateCookie($cookie): bool
 {
-    $userPassword = getSingleUserInformation($username, 'password');
-    return $userPassword == $saltPepperPassword;
+    $db = buildDatabase();
+    $result = $db->query(getCookieQuery($cookie));
+    $rows = $db->fetch($result);
+    $db->close();
+    if (is_null($rows)) {
+        return false;
+    }
+    $_SESSION['user_id'] = $rows['id_user'];
+    echo $rows['id_user'];
+    return true;
+}
+
+function createToken($idUser, $token)
+{
+    $db = buildDatabase();
+    $db->insert(getTokenInsertQuery($idUser, $token));
+    $db->close();
+}
+
+function removeTokenFromDatabase()
+{
+    $db = buildDatabase();
+    $db->delete(getTokenDeleteQuery($_SESSION['user_id']));
+    $db->close();
 }

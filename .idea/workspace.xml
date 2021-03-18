@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="added new log table for log in">
-      <change afterPath="$PROJECT_DIR$/app/helpers/cookies.php" afterDir="false" />
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="made remember me cookie or a least an idea of it ?">
+      <change afterPath="$PROJECT_DIR$/app/helpers/string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e58297dd-9907-441f-9357-d2216be1bdce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e58297dd-9907-441f-9357-d2216be1bdce.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin-panel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/classes/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/classes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/cookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/cookies.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helpers/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helpers/queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/queries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sql.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/verifications/log-in-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/verifications/log-in-verification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/verifications/sign-up-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/verifications/sign-up-verification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,8 @@
       <workItem from="1615779210188" duration="630000" />
       <workItem from="1615835508470" duration="2471000" />
       <workItem from="1615839925441" duration="3441000" />
-      <workItem from="1616026453875" duration="10017000" />
+      <workItem from="1616026453875" duration="10741000" />
+      <workItem from="1616072455864" duration="7432000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -271,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616030963350</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="made remember me cookie or a least an idea of it ?">
+      <created>1616037418830</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1616037418830</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +322,7 @@
     <MESSAGE value="made ajax call to get number of polls" />
     <MESSAGE value="added file authorization regulations" />
     <MESSAGE value="added new log table for log in" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new log table for log in" />
+    <MESSAGE value="made remember me cookie or a least an idea of it ?" />
+    <option name="LAST_COMMIT_MESSAGE" value="made remember me cookie or a least an idea of it ?" />
   </component>
 </project>

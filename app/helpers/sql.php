@@ -7,6 +7,13 @@ function getUserQuery($username): string
             WHERE username = '$username'";
 }
 
+function getUserByIdQuery($id): string
+{
+    return "SELECT * 
+            FROM account 
+            WHERE username = '$id'";
+}
+
 function getUserInsert(User $user):string
 {
     return "INSERT INTO account (username, firstname, lastname, email, password, ssn, phoneNumber, address, gender, isAdmin)
@@ -78,4 +85,22 @@ function getInsertLogQuery(string $content): string
 {
     return "INSERT INTO log (content)
             VALUE ('$content')";
+}
+
+function getTokenInsertQuery($idUser, $token): string
+{
+    return "INSERT INTO token (id_user, cookieValue)
+            VALUES ('$idUser', '$token')";
+}
+
+function getCookieQuery($cookie): string
+{
+    return "SELECT *
+            FROM token
+            WHERE '$cookie' = cookieValue";
+}
+
+function getTokenDeleteQuery($userId): string
+{
+    return "DELETE FROM token WHERE id_user = '$userId'";
 }
