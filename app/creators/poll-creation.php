@@ -4,11 +4,6 @@ require_once "../functions.php";
 require_once "../helpers/sql.php";
 require_once "../verifications/poll-verification.php";
 
-filterFormContent($_POST);
-filterFormContent($_GET);
-
-exit();
-
 if ($_REQUEST == $_POST) {
     $db = buildDatabase();
     if (fieldsAreValid()) {

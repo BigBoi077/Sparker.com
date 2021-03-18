@@ -7,8 +7,7 @@ require_once "helpers/log.php";
 require_once "helpers/cookies.php";
 
 session_start();
-filterFormContent($_POST);
-filterFormContent($_GET);
+filterForm();
 
 function buildDatabase(): Database
 {
@@ -22,6 +21,12 @@ function redirect(string $file)
     http_response_code(302);
     header("Location: $file");
     exit;
+}
+
+function filterForm()
+{
+    filterFormContent($_POST);
+    filterFormContent($_GET);
 }
 
 function sanitize($string)
