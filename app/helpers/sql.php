@@ -11,7 +11,7 @@ function getUserByIdQuery($id): string
 {
     return "SELECT * 
             FROM account 
-            WHERE username = '$id'";
+            WHERE id = '$id'";
 }
 
 function getUserInsert(User $user):string

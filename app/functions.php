@@ -62,10 +62,10 @@ function filterFormContent()
 
 function verifyRememberMeCookie()
 {
-    echo $_COOKIE['REMEMBER_ME'];
-    if (isValidRememberMeCookie()) {
-        $user = getAllUserRowsById($_SESSION['user_id']);
-        echo "LOG USER";
-        logInAndRedirect($user, "/Sparker.com/votes.php");
+    if (isset($_COOKIE['REMEMBER_ME'])) {
+        if (isValidRememberMeCookie()) {
+            $user = getAllUserRowsById($_SESSION['user_id']);
+            logInAndRedirect($user, "/Sparker.com/votes.php");
+        }
     }
 }
