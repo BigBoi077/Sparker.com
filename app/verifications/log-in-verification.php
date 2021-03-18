@@ -8,6 +8,7 @@ if (!isset($_SESSION['is_logged'])) {
     $password = addslashes($_POST['password']) ?? '';
 
     $hashPassword = getSingleUserInformation($username, "password");
+    createLog($username);
 
     if (!isLogInInformationValid($username, $password, $hashPassword)) {
         $_SESSION['error'] = "Wrong Credentials";

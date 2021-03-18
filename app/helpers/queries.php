@@ -100,7 +100,7 @@ function updateNbrVotesOption($optionId, $nbrVotes)
 function insertUserPoll($userId, $pollId)
 {
     $db = buildDatabase();
-    $db->update(getUserPollInsertQuery($userId, $pollId));
+    $db->insert(getUserPollInsertQuery($userId, $pollId));
     $db->close();
 }
 
@@ -114,4 +114,11 @@ function getAllPolsAndOptions()
         return 0;
     }
     return $rows['nbrPolls'];
+}
+
+function insertLog(string $content)
+{
+    $db = buildDatabase();
+    $db->insert(getInsertLogQuery($content));
+    $db->close();
 }

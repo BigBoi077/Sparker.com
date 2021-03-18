@@ -3,6 +3,7 @@
 define('PASSWORD_PEPPER', getenv("PASSWORD_PEPPER"));
 
 require_once "classes/Database.php";
+require_once "helpers/log.php";
 
 session_start();
 
@@ -45,4 +46,9 @@ function refillField(string $fieldName)
 function unauthorizedAccess(): bool
 {
     return !$_SESSION['is_admin'] || !$_SESSION['is_logged'];
+}
+
+function createLog(string $username)
+{
+    insertNewLogInfo($username);
 }

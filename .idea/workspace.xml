@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="made ajax call to get number of polls">
-      <change afterPath="$PROJECT_DIR$/app/creators/graphs-creation.php" afterDir="false" />
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="added file authorization regulations">
+      <change afterPath="$PROJECT_DIR$/app/helpers/log.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e58297dd-9907-441f-9357-d2216be1bdce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e58297dd-9907-441f-9357-d2216be1bdce.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin-panel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/ajax.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helpers/queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/queries.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helpers/sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sql.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/verifications/log-in-verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/verifications/log-in-verification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-poll.php" beforeDir="false" afterPath="$PROJECT_DIR$/create-poll.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs.php" beforeDir="false" afterPath="$PROJECT_DIR$/graphs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/classes/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/classes/ElementCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/classes/ElementCreator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/graphs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/helpers/ajax.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +84,7 @@
       <workItem from="1615779210188" duration="630000" />
       <workItem from="1615835508470" duration="2471000" />
       <workItem from="1615839925441" duration="3441000" />
-      <workItem from="1616026453875" duration="1809000" />
+      <workItem from="1616026453875" duration="3243000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -262,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615606139086</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added file authorization regulations">
+      <created>1616029274918</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1616029274918</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +300,7 @@
     <MESSAGE value="fixed previous commit" />
     <MESSAGE value="fixed from submission" />
     <MESSAGE value="made ajax call to get number of polls" />
-    <option name="LAST_COMMIT_MESSAGE" value="made ajax call to get number of polls" />
+    <MESSAGE value="added file authorization regulations" />
+    <option name="LAST_COMMIT_MESSAGE" value="added file authorization regulations" />
   </component>
 </project>

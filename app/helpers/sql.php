@@ -73,3 +73,9 @@ function getNbrPollsQuery(): string
 {
     return "";
 }
+
+function getInsertLogQuery(string $content): string
+{
+    return "INSERT INTO log (content)
+            VALUE ('$content')";
+}
