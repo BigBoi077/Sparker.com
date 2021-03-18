@@ -11,6 +11,7 @@
     if (unauthorizedAccess()) {
         redirect("./index.php");
     }
+    verifyRememberMeCookie();
     ?>
     <div class="columns is-centered">
         <div class="column">

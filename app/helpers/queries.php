@@ -122,3 +122,9 @@ function insertLog(string $content)
     $db->insert(getInsertLogQuery($content));
     $db->close();
 }
+
+function validateUser($username, $saltPepperPassword): bool
+{
+    $userPassword = getSingleUserInformation($username, 'password');
+    return $userPassword == $saltPepperPassword;
+}

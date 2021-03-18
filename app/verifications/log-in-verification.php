@@ -2,13 +2,19 @@
 
 require_once "../functions.php";
 require_once "../helpers/queries.php";
+require_once "../helpers/cookies.php";
 
 if (!isset($_SESSION['is_logged'])) {
-    $username = addslashes($_POST['username']) ?? '';
-    $password = addslashes($_POST['password']) ?? '';
+    $username = sanitize($_POST['username']) ?? '';
+    $password = sanitize($_POST['password']) ?? '';
+    $rememberMe = sanitize($_POST['rememberMe']) ?? '';
 
     $hashPassword = getSingleUserInformation($username, "password");
     createLog($username);
+
+    if ($rememberMe == "on") {
+        createCookie('REMEMBER_ME', "$username|$hashPassword");
+    }
 
     if (!isLogInInformationValid($username, $password, $hashPassword)) {
         $_SESSION['error'] = "Wrong Credentials";

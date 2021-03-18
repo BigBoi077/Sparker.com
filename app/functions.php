@@ -4,6 +4,7 @@ define('PASSWORD_PEPPER', getenv("PASSWORD_PEPPER"));
 
 require_once "classes/Database.php";
 require_once "helpers/log.php";
+require_once "helpers/cookies.php";
 
 session_start();
 
@@ -21,7 +22,7 @@ function redirect(string $file)
     exit;
 }
 
-function sanitize(string $string): string
+function sanitize($string)
 {
     return strip_tags(addslashes($string));
 }
@@ -51,4 +52,13 @@ function unauthorizedAccess(): bool
 function createLog(string $username)
 {
     insertNewLogInfo($username);
+}
+
+function verifyRememberMeCookie()
+{
+    if (isset($_COOKIE['REMEMBER_ME'])) {
+        if (isValidRememberMeCookie()) {
+            redirect("/Sparker.com/votes.php");
+        }
+    }
 }

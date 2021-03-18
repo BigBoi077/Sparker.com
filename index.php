@@ -6,7 +6,10 @@
 </head>
 <body>
     <div class="container mt-4 mb-4">
-        <?php include_once "app/components/header.php"; ?>
+        <?php
+        include_once "app/components/header.php";
+        verifyRememberMeCookie();
+        ?>
         <div class="columns mt-1 is-centered">
             <div class="column is-three-fifths">
                 <?php include_once "app/components/errors.php"; ?>
@@ -23,6 +26,9 @@
                             <input id="password" name="password" class="input" type="password" placeholder="********">
                         </div>
                     </div>
+                    <label class="checkbox mb-3">
+                        <input type="checkbox" name="rememberMe"> Remember me
+                    </label>
                     <a class="is-size-7-desktop d-block" href="sign-up.php">Don't have an account ? Sign up here</a>
                     <br>
                     <button class="button form-button">Log in</button>
