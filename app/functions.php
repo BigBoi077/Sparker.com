@@ -7,7 +7,8 @@ require_once "helpers/log.php";
 require_once "helpers/cookies.php";
 
 session_start();
-filterFormContent();
+filterFormContent($_POST);
+filterFormContent($_GET);
 
 function buildDatabase(): Database
 {
@@ -55,9 +56,15 @@ function createLog(string $username)
     insertNewLogInfo($username);
 }
 
-function filterFormContent()
+function filterFormContent($array)
 {
-
+    foreach ($array as $value) {
+        if (is_string($value)) {
+            sanitize($value);
+        } else {
+            filterFormContent($value);
+        }
+    }
 }
 
 function verifyRememberMeCookie()

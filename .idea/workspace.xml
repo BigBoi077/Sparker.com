@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="fixed cookie token problem">
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="fixed 'to many redirects' problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin-panel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/creators/poll-creation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/creators/poll-creation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sql.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -82,7 +82,7 @@
       <workItem from="1615835508470" duration="2471000" />
       <workItem from="1615839925441" duration="3441000" />
       <workItem from="1616026453875" duration="10741000" />
-      <workItem from="1616072455864" duration="8531000" />
+      <workItem from="1616072455864" duration="12580000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -280,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616080417513</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="fixed 'to many redirects' problem">
+      <created>1616081337830</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1616081337830</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +330,7 @@
     <MESSAGE value="added new log table for log in" />
     <MESSAGE value="made remember me cookie or a least an idea of it ?" />
     <MESSAGE value="fixed cookie token problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed cookie token problem" />
+    <MESSAGE value="fixed 'to many redirects' problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed 'to many redirects' problem" />
   </component>
 </project>
