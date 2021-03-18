@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="made filtering method for get and post information">
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="reworked last method for immediate call every where">
+      <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/creators/graphs-creation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/creators/graphs-creation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/ajax.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/queries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs.php" beforeDir="false" afterPath="$PROJECT_DIR$/graphs.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +48,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/javascripts/vendor" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\javascripts\vendor" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com" />
       <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app" />
       <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app\helpers" />
       <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app\creators" />
       <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app\verifications" />
-      <recent name="C:\Users\Leblanc\Ecole\Virtual Machines\www3\Sparker.com\app\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,7 +94,7 @@
       <workItem from="1615835508470" duration="2471000" />
       <workItem from="1615839925441" duration="3441000" />
       <workItem from="1616026453875" duration="10741000" />
-      <workItem from="1616072455864" duration="13597000" />
+      <workItem from="1616072455864" duration="20825000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -293,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616101364283</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="reworked last method for immediate call every where">
+      <created>1616102454069</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1616102454069</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +332,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finished user verifications with regex and such" />
     <MESSAGE value="finished verifications" />
     <MESSAGE value="fixed unknown session" />
     <MESSAGE value="reworked stuff" />
@@ -337,6 +356,7 @@
     <MESSAGE value="fixed cookie token problem" />
     <MESSAGE value="fixed 'to many redirects' problem" />
     <MESSAGE value="made filtering method for get and post information" />
-    <option name="LAST_COMMIT_MESSAGE" value="made filtering method for get and post information" />
+    <MESSAGE value="reworked last method for immediate call every where" />
+    <option name="LAST_COMMIT_MESSAGE" value="reworked last method for immediate call every where" />
   </component>
 </project>

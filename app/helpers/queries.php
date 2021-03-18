@@ -114,7 +114,7 @@ function insertUserPoll($userId, $pollId)
     $db->close();
 }
 
-function getAllPolsAndOptions()
+function getNbrPolls()
 {
     $db = buildDatabase();
     $result = $db->query(getNbrPollsQuery());
@@ -159,4 +159,26 @@ function removeTokenFromDatabase()
     $db = buildDatabase();
     $db->delete(getTokenDeleteQuery($_SESSION['user_id']));
     $db->close();
+}
+
+function getAllPollIds(): array
+{
+    $db = buildDatabase();
+    $result = $db->query(getAllPollIdsQuery());
+    $rows = $db->fetchAll($result);
+    $db->close();
+    if (is_null($rows)) {
+        return [];
+    }
+    return $rows;
+}
+
+function getAccordingTitleForPoll($database, $pollId)
+{
+    $result = $database->query(getTitleForPollQuery($pollId));
+    $rows = $database->fetch($result);
+    if (is_null($rows)) {
+        return 0;
+    }
+    return $rows['title'];
 }

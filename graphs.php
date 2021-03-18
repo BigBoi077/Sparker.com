@@ -11,8 +11,10 @@
         redirect("./index.php");
     }
     ?>
-    <div class="columns d-flex justify-content-center" id="graph-container">
-        <?php include_once "app/creators/graphs-creation.php"?>
+    <div class="columns d-flex justify-content-center">
+        <?php
+        require_once "app/helpers/queries.php";
+        include_once "app/creators/graphs-creation.php"?>
     </div>
 </div>
 <?php include_once "app/components/footer.php"; ?>

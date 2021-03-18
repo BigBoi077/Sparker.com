@@ -41,7 +41,7 @@ function getAllPollsQuery(): string
 
 function getAccordingOptionsForPollQuery($pollId): string
 {
-    return "SELECT id, description, id_poll
+    return "SELECT id, description, id_poll, nbrVotes
             FROM pollOption 
             WHERE id_poll = '$pollId'";
 }
@@ -78,7 +78,8 @@ function getUserPollInsertQuery($userId, $pollId): string
 
 function getNbrPollsQuery(): string
 {
-    return "";
+    return "SELECT COUNT(id) as nbrPolls
+            FROM poll";
 }
 
 function getInsertLogQuery(string $content): string
@@ -102,5 +103,18 @@ function getCookieQuery($cookie): string
 
 function getTokenDeleteQuery($userId): string
 {
-    return "DELETE FROM token WHERE id_user = '$userId'";
+    return "DELETE FROM token 
+            WHERE id_user = '$userId'";
+}
+
+function getAllPollIdsQuery(): string
+{
+    return "SELECT id FROM poll";
+}
+
+function getTitleForPollQuery($pollId)
+{
+    return "SELECT title
+            FROM poll
+            WHERE id = '$pollId'";
 }
