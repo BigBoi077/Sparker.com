@@ -12,7 +12,7 @@ function getNamesRegex(): string
 
 function getPasswordRegex(): string
 {
-    return "/^(?=.*[!@#$%^&*-])(?=.*[0-9])(?=.*[A-Z]).{8,20}$/";
+    return "/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9]).{8,}$/";
 }
 
 function getSsnRegex(): string

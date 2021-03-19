@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="added Chart.js contents">
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="it all came together &lt;3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/creators/graphs-creation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/creators/graphs-creation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/regex.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/regex.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,8 @@
       <workItem from="1615835508470" duration="2471000" />
       <workItem from="1615839925441" duration="3441000" />
       <workItem from="1616026453875" duration="10741000" />
-      <workItem from="1616072455864" duration="22122000" />
+      <workItem from="1616072455864" duration="22250000" />
+      <workItem from="1616115142871" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -317,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616113346992</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="it all came together &lt;3">
+      <created>1616113695006</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1616113695006</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +344,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="made the admin pannel accesible" />
     <MESSAGE value="made navigation in admin panel" />
     <MESSAGE value="made the creation poll panel" />
     <MESSAGE value="made a functional add/remove panel" />
@@ -361,6 +368,7 @@
     <MESSAGE value="made grapg generation" />
     <MESSAGE value="made graph generation" />
     <MESSAGE value="added Chart.js contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Chart.js contents" />
+    <MESSAGE value="it all came together &lt;3" />
+    <option name="LAST_COMMIT_MESSAGE" value="it all came together &lt;3" />
   </component>
 </project>
