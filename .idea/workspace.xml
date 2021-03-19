@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="reworked last method for immediate call every where">
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="made graph generation">
       <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.bundle.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.bundle.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.css" afterDir="false" />
@@ -94,7 +94,7 @@
       <workItem from="1615835508470" duration="2471000" />
       <workItem from="1615839925441" duration="3441000" />
       <workItem from="1616026453875" duration="10741000" />
-      <workItem from="1616072455864" duration="20825000" />
+      <workItem from="1616072455864" duration="21146000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -313,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616102454069</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="made graph generation">
+      <created>1616109912828</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1616109912828</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,8 +339,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finished verifications" />
-    <MESSAGE value="fixed unknown session" />
     <MESSAGE value="reworked stuff" />
     <MESSAGE value="made the admin pannel accesible" />
     <MESSAGE value="made navigation in admin panel" />
@@ -357,6 +362,8 @@
     <MESSAGE value="fixed 'to many redirects' problem" />
     <MESSAGE value="made filtering method for get and post information" />
     <MESSAGE value="reworked last method for immediate call every where" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworked last method for immediate call every where" />
+    <MESSAGE value="made grapg generation" />
+    <MESSAGE value="made graph generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="made graph generation" />
   </component>
 </project>
