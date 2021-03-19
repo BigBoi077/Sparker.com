@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="made graph generation">
-      <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/vendor/Chart.min.js" afterDir="false" />
+    <list default="true" id="618654db-0a12-4232-88e0-7ea872074e51" name="Default Changelist" comment="added Chart.js contents">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/creators/graphs-creation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/creators/graphs-creation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/ajax.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/queries.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sql.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs.php" beforeDir="false" afterPath="$PROJECT_DIR$/graphs.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +84,7 @@
       <workItem from="1615835508470" duration="2471000" />
       <workItem from="1615839925441" duration="3441000" />
       <workItem from="1616026453875" duration="10741000" />
-      <workItem from="1616072455864" duration="21146000" />
+      <workItem from="1616072455864" duration="22122000" />
     </task>
     <task id="LOCAL-00001" summary="replaced all files">
       <created>1614571951394</created>
@@ -320,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616109912828</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added Chart.js contents">
+      <created>1616113346992</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1616113346992</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +336,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reworked stuff" />
     <MESSAGE value="made the admin pannel accesible" />
     <MESSAGE value="made navigation in admin panel" />
     <MESSAGE value="made the creation poll panel" />
@@ -364,6 +360,7 @@
     <MESSAGE value="reworked last method for immediate call every where" />
     <MESSAGE value="made grapg generation" />
     <MESSAGE value="made graph generation" />
-    <option name="LAST_COMMIT_MESSAGE" value="made graph generation" />
+    <MESSAGE value="added Chart.js contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Chart.js contents" />
   </component>
 </project>

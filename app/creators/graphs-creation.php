@@ -1,5 +1,4 @@
-<div id="graph-container" class="d-flex justify-content-center"></div>
-<canvas id="myChart" width="200" height="100"></canvas>
+<div id="graph-container"></div>
 <?php
 
 function generateOptions($database, $pollId, $offset)
@@ -75,7 +74,6 @@ function getRandomColor(): string
         canvas.id = id;
         canvas.width = 200;
         canvas.height = 100;
-        canvas.classList.add("is-block")
         container.append(canvas);
     }
 
